@@ -56,6 +56,14 @@
         Name: <xsl:value-of select=".//individualName/givenName"/> 
           <xsl:text> </xsl:text><xsl:value-of select=".//individualName/surName"/>
         </xsl:for-each>
+         <xsl:for-each select="//dataTable ">
+         <br/>
+        Data table: <xsl:value-of select=".//entityName"/> 
+        </xsl:for-each>
+         <xsl:for-each select="//otherEntity ">
+         <br/>
+        Other entity: <xsl:value-of select=".//entityName"/> 
+        </xsl:for-each>
 
 				<!--	<xsl:apply-templates select="*[local-name()='eml']"/> -->
 	
