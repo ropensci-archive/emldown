@@ -61,13 +61,14 @@
          <xsl:for-each select="//dataTable ">
          <br/>
         Data table: <xsl:value-of select=".//entityName"/> 
+        <xsl:apply-templates/> 
         </xsl:for-each>
          <xsl:for-each select="//otherEntity ">
          <br/>
         Other entity: <xsl:value-of select=".//entityName"/> 
         </xsl:for-each>
 
-				<!--	<xsl:apply-templates select="*[local-name()='eml']"/> -->
+				<xsl:apply-templates select="*[local-name()='eml']"/> 
 	
 
         </div>
