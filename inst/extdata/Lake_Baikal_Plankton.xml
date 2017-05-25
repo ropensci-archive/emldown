@@ -1,0 +1,456 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="eml://ecoinformatics.org/dataset-2.0.1" packageId="nceas.290.8" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>Lake Baikal Plankton</title>
+ <creator scope="document"> <organizationName>NCEAS      10241 : Zilov: The 60-year data set of plankton dynamics in Lake Baikal</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator id="hampton" scope="document"> <individualName> <givenName>Lyubov</givenName>
+ <surName>Izmest&apos;eva</surName>
+ </individualName>
+ <organizationName>Irkutsk State University Biological Institute</organizationName>
+ <address scope="document"> <deliveryPoint>P.O. Box 24</deliveryPoint>
+ <city>Irkutsk</city>
+ <administrativeArea>Select state or territory here.</administrativeArea>
+ <postalCode>664003</postalCode>
+ <country>RUSSIA</country>
+ </address>
+ <phone phonetype="voice">(3952)243 077</phone>
+ <electronicMailAddress>ismest@bio.isu.runnet.ru</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Stephanie</givenName>
+ <surName>Hampton</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Stephanie</givenName>
+ <surName>Hampton</surName>
+ </individualName>
+ <role>User</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Marianne</givenName>
+ <surName>Moore</surName>
+ </individualName>
+ <role>User</role>
+ </associatedParty>
+ <pubDate>2006-07-27</pubDate>
+ <abstract> <para>This data set was collected at roughly 7-10 day intervals approximately 1 km offshore from Bolshie Koty on Lake Baikal. Depths span 0 - 250 m with regularity and frequently deeper. Zooplankton and phytoplankton are identified to species and lifestage where applicable. Temperature and Secchi depth are available for full time series, chlorophyll a and primary productivity are available since 1979. The data set has been under the direction of Mikhail Kozhov, Olga Kozhova and Lyubov Izmest&apos;eva since roughly 1945. Data uploaded in 2008 correspond to analyses and descriptions in Hampton et al. 2008 (In press) Sixty Years of Environmental Change in the World&#8217;s Largest Freshwater Lake &#8211; Lake Baikal, Siberia. Global Change Biology.</para>
+ </abstract>
+ <keywordSet> <keyword keywordType="taxonomic">plankton</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword keywordType="place">Lake Baikal</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword keywordType="place">Russia</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <keywordSet> <keyword keywordType="theme">limnological</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>Obtain permission from data set owner Lyubov Izmest&apos;eva.</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <singleDateTime> <calendarDate>1945</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>1 km offshore from Bolshie Koty, Lake Baikal, Siberia, Russia</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>105.0706</westBoundingCoordinate>
+ <eastBoundingCoordinate>105.0706</eastBoundingCoordinate>
+ <northBoundingCoordinate>51.9033</northBoundingCoordinate>
+ <southBoundingCoordinate>51.9033</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Lyubov</givenName>
+ <surName>Izmest&apos;eva</surName>
+ </individualName>
+ <organizationName>Irkutsk State University</organizationName>
+ <address scope="document"> <deliveryPoint>P.O. Box 24</deliveryPoint>
+ <city>Irkutsk</city>
+ <administrativeArea>Select state or territory here.</administrativeArea>
+ <postalCode>664003</postalCode>
+ <country>Russia</country>
+ </address>
+ <electronicMailAddress>ismest@bio.isu.runnet.ru</electronicMailAddress>
+ </contact>
+ <access authSystem="knb" order="denyFirst" scope="document"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow><principal>uid=hampton,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataTable id="1204225334000" scope="document"> <entityName>Baikal_48_02_TempZoo_Quarter.csv</entityName>
+ <entityDescription>Lake Baikal untransformed quarterly temperature and zooplankton density data from Lyubov Izmest&apos;eva, Irkutsk State University, Irkutsk Siberia Russia. Corresponds to Hampton et al. In press. Sixty Years of Environmental Change in the World&apos;s Largest Freshwater Lake-  Lake Baikal, Siberia. Global Change Biology.</entityDescription>
+ <physical id="1204225327953" scope="document"> <objectName>Baikal_48_02_TempZoo_Quarter.csv</objectName>
+ <size unit="byte">15205</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/hampton.3.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1204225334015" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>year</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalYear</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204225334031" scope="document"> <attributeName>Quarter</attributeName>
+ <attributeDefinition>Data were averaged across three months. DJF=Dec, Jan,Feb where Dec is from the previous year; MAM = Mar, Apr, May; JJA = Jun, Jul, Aug; SON = Sept, Oct, Nov.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Quarters of the year</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204225334046" scope="document"> <attributeName>SurfTemp</attributeName>
+ <attributeLabel>Surface Temperature</attributeLabel>
+ <attributeDefinition>Temperature in celsius  taken at 0m with a mercury thermometer</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204225334062" scope="document"> <attributeName>25Temp</attributeName>
+ <attributeLabel>Temperature at 25 m depth</attributeLabel>
+ <attributeDefinition>Temperature in celsius taken at 25m with mercury thermometer suspended in VanDorn sampling bottle</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204225334078" scope="document"> <attributeName>50Temp</attributeName>
+ <attributeLabel>Temperature at 50 m depth</attributeLabel>
+ <attributeDefinition>Temperature in celsius taken with mercury thermometer suspended in VanDorn bottle and read at surface</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204225334093" scope="document"> <attributeName>Copepod</attributeName>
+ <attributeLabel>Copepod Abundance in individuals per liter</attributeLabel>
+ <attributeDefinition>Copepods totaled, primarily Epischura, reported in individuals per liter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204225334109" scope="document"> <attributeName>Rotifer</attributeName>
+ <attributeLabel>Rotifer abundance individuals per liter</attributeLabel>
+ <attributeDefinition>Rotifers totaled, reported in individuals per liter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204225334125" scope="document"> <attributeName>BosminaDaphnia</attributeName>
+ <attributeLabel>Cladoceran abundance individuals per liter</attributeLabel>
+ <attributeDefinition>Bosmina and Daphnia  totaled,  reported in individuals per liter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>222</numberOfRecords>
+ </dataTable>
+ <dataTable id="1204226366875" scope="document"> <entityName>Baikal_64_02_secchi_chla_JulAugAvg.csv</entityName>
+ <entityDescription>Lake Baikal untransformed July/August averaged chlorophyll a and Secchi data from Lyubov Izmest&apos;eva, Irkutsk State University, Irkutsk Siberia Russia. Corresponds to Hampton et al. In press. Sixty Years of Environmental Change in the World&apos;s Largest Freshwater Lake - Lake Baikal, Siberia. Global Change Biology.</entityDescription>
+ <physical id="1204226364531" scope="document"> <objectName>Baikal_64_02_secchi_chla_JulAugAvg.csv</objectName>
+ <size unit="byte">785</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/hampton.4.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1204226366890" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>Year measurements taken</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalYear</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204226366906" scope="document"> <attributeName>SecchiJulAug</attributeName>
+ <attributeLabel>Secchi depth meters averaged July August</attributeLabel>
+ <attributeDefinition>Secchi depth in meters - Secchi is the distance at which a standard white disc disappears from view when lowered from the water surface. Measurements are averaged from July and August and typically contain greater than two readings averaged.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204226366921" scope="document"> <attributeName>chlaJulAug</attributeName>
+ <attributeLabel>chlorophyll a micrograms per liter averaged July August</attributeLabel>
+ <attributeDefinition>chlorophyll a has been measured since 1979 as a proxy for phytoplankton biomass, using standard acetone extraction and spectrophotometry (UNESCO, 1966)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>microgramsPerLiter</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>36</numberOfRecords>
+ </dataTable>
+ <dataTable id="1204228145265" scope="document"> <entityName>Baikal_74_97_moAvg_plankton.csv</entityName>
+ <entityDescription>Lake Baikal Plankton and Temperature Data from Lyubov Izemst&apos;eva, Irkutsk State University, Russia - also includes climate indices NAO, PDO, AO and ENSO located through University of Washington&apos;s Joint Institute for the Study of Atmosphere and Ocaen -snow data from the Historical Soviet Snow Data -  monthly averages correspond to Multivariate Autoregressive model in Hampton et al. In press. Sixty Years of Environmental Change in the World&apos;s Largest Freshwater Lake -  Lake Baikal, Siberia. Global Change Biology.</entityDescription>
+ <physical id="1204228143781" scope="document"> <objectName>Baikal_74_97_moAvg_plankton.csv</objectName>
+ <size unit="byte">33855</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/hampton.5.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1204228145281" scope="document"> <attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalYear</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145296" scope="document"> <attributeName>Month</attributeName>
+ <attributeLabel>Month</attributeLabel>
+ <attributeDefinition>Month</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>NominalMonth</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145312" scope="document"> <attributeName>Watertemp0-50</attributeName>
+ <attributeLabel>Water temperature in celsius averaged 0 - 50 meters</attributeLabel>
+ <attributeDefinition>Water temperature in celsius for readings between 0 and 50 meters - temperature measured at discrete depths with a mercury thermometer suspended in a Van Dorn bottle, typically 0, 5, 10, 25 and 50 m but varies some over the time period.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145328" scope="document"> <attributeName>NAO hurrell</attributeName>
+ <attributeLabel>North Atlantic Oscillation index</attributeLabel>
+ <attributeDefinition>NAO index from Jim Hurrell&apos;s website at National Center for Atmospheric Research</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145343" scope="document"> <attributeName>PDO jisao</attributeName>
+ <attributeLabel>Pacific Decadal Oscillation index</attributeLabel>
+ <attributeDefinition>PDO index located through University of Washington&apos;s Joint Institute for the Study of Atmosphere and the Ocean.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145359" scope="document"> <attributeName>AO jisao</attributeName>
+ <attributeLabel>Arctic Oscillation</attributeLabel>
+ <attributeDefinition>AO index located through University of Washington&apos;s Joint Institute for the Study of Atmosphere and the Ocean.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145375" scope="document"> <attributeName>ENSO jisao</attributeName>
+ <attributeLabel>El Nino Southern Oscillation index</attributeLabel>
+ <attributeDefinition>ENSO index located through University of Washington&apos;s Joint Institute for the Study of Atmosphere and the Ocean.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145390" scope="document"> <attributeName>Mean snow depth Irkutsk - boulder Snow &amp; Ice data</attributeName>
+ <attributeLabel>Snow depth in cm at Irkutsk Weather station</attributeLabel>
+ <attributeDefinition>Snow depth in cm at Irkutsk station in the National Snow and Ice Data Center&apos;s Historical Soviet Daily Snow Depth - version 2.0</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <precision>0.002</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145406" scope="document"> <attributeName>Copepod total</attributeName>
+ <attributeLabel>Copepod total density individuals per liter</attributeLabel>
+ <attributeDefinition>Copepod density individuals per liter averaged in top 0 to 50 m samples, monthly averages</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145421" scope="document"> <attributeName>Rotifer total</attributeName>
+ <attributeLabel>Rotifer total density individuals per liter</attributeLabel>
+ <attributeDefinition>Rotifer density individuals per liter averaged in top 0 to 50 m samples, monthly averages</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145437" scope="document"> <attributeName>Bosmina &amp; Daphnia</attributeName>
+ <attributeLabel>Cladoceran density individuals per liter</attributeLabel>
+ <attributeDefinition>Cladoceran density individuals per liter averaged in top 0 to 50 m samples, monthly averages</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145453" scope="document"> <attributeName>chrysophtye</attributeName>
+ <attributeLabel>chrysophyte algal density cells X 1000 per liter</attributeLabel>
+ <attributeDefinition>chrysophyte density- cells (x 1000) per liter - averaged within 1 to 50 m samples for each month</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145468" scope="document"> <attributeName>cryptophyte</attributeName>
+ <attributeLabel>cryptophyte algal density cells (x1000) per liter</attributeLabel>
+ <attributeDefinition>cryptophyte density- cells (x 1000) per liter - averaged within 1 to 50 m samples for each month</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145484" scope="document"> <attributeName>cyanobacteria total</attributeName>
+ <attributeLabel>cyanobacteria algal density - cells (x1000) per liter</attributeLabel>
+ <attributeDefinition>cyanobacteria density- cells (x 1000) per liter - averaged within 1 to 50 m samples for each month</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145500" scope="document"> <attributeName>diatom</attributeName>
+ <attributeLabel>diatom algal density - cells (x1000) per liter</attributeLabel>
+ <attributeDefinition>diatom density- cells (x 1000) per liter - averaged within 1 to 50 m samples for each month</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145515" scope="document"> <attributeName>dinoflagellate</attributeName>
+ <attributeLabel>dinoflagellate algal density cells (x1000) per liter</attributeLabel>
+ <attributeDefinition>dinoflagellate density- cells (x 1000) per liter - averaged within 1 to 50 m samples for each month</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1204228145531" scope="document"> <attributeName>green</attributeName>
+ <attributeLabel>green algal density cells (x1000) per liter</attributeLabel>
+ <attributeDefinition>green algae density- cells (x 1000) per liter - averaged within 1 to 50 m samples for each month</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>numberPerLiter</customUnit>
+ </unit>
+ <precision>0.0001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>266</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <unitList> <unit id="numberPerLiter" name="numberPerLiter" parentSI="numberPerMeterCubed" unitType="volumetricdensity"> <description>numberPerLiter</description>
+ </unit>
+ </unitList>
+ </additionalMetadata>
+ <additionalMetadata> <unitList> <unit id="microgramsPerLiter" name="microgramsPerLiter" parentSI="liter" unitType="volumetricWeight"> <description>microgramsPerLiter</description>
+ </unit>
+ </unitList>
+ </additionalMetadata>
+ <additionalMetadata> <unitList> <unit id="NominalMonth" name="NominalMonth" parentSI="second" unitType="time"> <description>Month</description>
+ </unit>
+ </unitList>
+ </additionalMetadata>
+ </eml:eml>
