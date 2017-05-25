@@ -7,3 +7,6 @@ Depends: R (>= 3.3.2)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports: xslt,
+    EML,
+    xml2
