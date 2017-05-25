@@ -1,0 +1,9 @@
+Package: emldown
+Title: Create beautiful visualizations of an EML document
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: EML (Ecological Metadata Language) is a standard for writing metadata, designed for ecological data. This package takes a EML document and creates a .html website that describes it.
+Depends: R (>= 3.3.2)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
