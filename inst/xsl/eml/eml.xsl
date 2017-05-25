@@ -30,6 +30,7 @@
   * suitable for rendering with modern web browsers.
 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fn="http://www.w3.org/2005/02/xpath-function" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" version="1.0">
+
   <xsl:import href="emlroot.xsl"/>
 
   <xsl:output method="html" encoding="UTF-8"
@@ -48,22 +49,16 @@
       </head>
       <body>
 
-        <div id="{$mainTableAligmentStyle}">
-		<xsl:if test="$insertTemplate='1'">
-			<script language="JavaScript" type="text/JavaScript">
-				insertTemplateOpening('<xsl:value-of select="$contextURL" />');
-			</script>
-		</xsl:if>
+        <div class="container">
 
-          <table xsl:use-attribute-sets="cellspacing" width="100%"
-                                        class="{$mainContainerTableStyle}">
-			<tr>
-				<td>
-					<xsl:apply-templates select="*[local-name()='eml']"/>
-				</td>
-			</tr>		
-          </table>
+        <xsl:for-each select="//creator">
+        <br/>
+        Name: <xsl:value-of select=".//individualName/givenName"/> 
+          <xsl:value-of select=".//individualName/surName"/>
+        </xsl:for-each>
 
+				<!--	<xsl:apply-templates select="*[local-name()='eml']"/> -->
+	
 
         </div>
       </body>
