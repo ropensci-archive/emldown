@@ -10,3 +10,4 @@ LazyData: true
 Imports: xslt,
     EML,
     xml2
+RoxygenNote: 6.0.1
