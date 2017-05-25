@@ -54,7 +54,7 @@
         <xsl:for-each select="//creator">
         <br/>
         Name: <xsl:value-of select=".//individualName/givenName"/> 
-          <xsl:value-of select=".//individualName/surName"/>
+          <xsl:text> </xsl:text><xsl:value-of select=".//individualName/surName"/>
         </xsl:for-each>
 
 				<!--	<xsl:apply-templates select="*[local-name()='eml']"/> -->
