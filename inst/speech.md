@@ -1,0 +1,3 @@
+Dear Friends! I think that many of us might agree on two broad statements: 1) metadata is awesome / useful (2) nobody writes metadata. This is despite a ton of work done on an excellent Metadata standard for biology: the "Ecological Metadata Language", and an awesome Ropensci package to help write it!
+
+As I think we can all *also* agree, a scientist in possession of information must be in want of a cool website to put it on for free. We suggest a project that will do this for metadata: starting with a valid EML document, produce a beautiful and readable website that summarizes it. 
