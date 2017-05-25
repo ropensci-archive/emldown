@@ -1,0 +1,2459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="doi:10.5063/F12V2D1V" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=woo,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow><principal>uid=hampton,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset scope="document">  <title>Winter and summer comparison of biological, chemical, and physical conditions in seasonally ice-covered lakes</title>
+<creator id="1449524412876"><individualName><givenName>Stephanie E.</givenName>
+<surName>Hampton</surName>
+</individualName>
+<organizationName>Washington State University</organizationName>
+<address><deliveryPoint>CEREO</deliveryPoint>
+<deliveryPoint>PO Box 645825</deliveryPoint>
+<city>Pullman</city>
+<administrativeArea>Washington</administrativeArea>
+<postalCode>99164-5825</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">509-335-6750</phone>
+<electronicMailAddress>s.hampton@wsu.edu</electronicMailAddress>
+</creator>
+<creator id="1449790169400"><individualName><givenName>Stephanie G.</givenName>
+<surName>Labou</surName>
+</individualName>
+<organizationName>Washington State University</organizationName>
+<electronicMailAddress>stephanie.labou@wsu.edu</electronicMailAddress>
+</creator>
+<creator id="1476742411031"><individualName><givenName>Kara H.</givenName>
+<surName>Woo</surName>
+</individualName>
+<electronicMailAddress>woo.kara@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1462207242010"><individualName><givenName>Aaron W. E.</givenName>
+<surName>Galloway</surName>
+</individualName>
+<organizationName>University of Oregon</organizationName>
+<electronicMailAddress>agallow3@uoregon.edu</electronicMailAddress>
+</creator>
+<creator id="1449524675080"><individualName><givenName>Emily H.</givenName>
+<surName>Stanley</surName>
+</individualName>
+<organizationName>University of Wisconsin</organizationName>
+<address><deliveryPoint>680 N Park St</deliveryPoint>
+<city>Madison</city>
+<administrativeArea>Wisconsin</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>ehstanley@wisc.edu</electronicMailAddress>
+</creator>
+<creator id="1476742460540"><individualName><givenName>Ted</givenName>
+<surName>Ozersky</surName>
+</individualName>
+<organizationName>University of Minnesota Duluth</organizationName>
+<electronicMailAddress>tozersky@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1449524817120"><individualName><givenName>Rita</givenName>
+<surName>Adrian</surName>
+</individualName>
+<organizationName>Leibniz Institute of Freshwater Ecology and Inland Fisheries</organizationName>
+<address><deliveryPoint>Müggelseedamm 310</deliveryPoint>
+<city>Berlin</city>
+<postalCode>12587</postalCode>
+<country>Germany</country>
+</address>
+<electronicMailAddress>adrian@igb-berlin.de</electronicMailAddress>
+</creator>
+<creator id="1449527131851"><individualName><givenName>John</givenName>
+<surName>Anderson</surName>
+</individualName>
+<electronicMailAddress>N.J.Anderson@lboro.ac.uk</electronicMailAddress>
+</creator>
+<creator id="1449525530425"><individualName><givenName>Lauri</givenName>
+<surName>Arvola</surName>
+</individualName>
+<electronicMailAddress>lauri.arvola@helsinki.fi</electronicMailAddress>
+</creator>
+<creator id="1449525585991"><individualName><givenName>Helen M.</givenName>
+<surName>Baulch</surName>
+</individualName>
+<organizationName>University of Saskatchewan</organizationName>
+<address><deliveryPoint>11 Innovation Blvd</deliveryPoint>
+<city>Saskatoon</city>
+<administrativeArea>Saskatchewan</administrativeArea>
+<country>Canada</country>
+</address>
+<electronicMailAddress>helen.baulch@usask.ca</electronicMailAddress>
+</creator>
+<creator id="1449525626627"><individualName><givenName>Isabella</givenName>
+<surName>Bertani</surName>
+</individualName>
+<organizationName>University of Michigan</organizationName>
+<address><deliveryPoint>625 E. Liberty Street, Suite 300</deliveryPoint>
+<city>Ann Arbor</city>
+<administrativeArea>Michigan</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>ibertani@umich.edu</electronicMailAddress>
+</creator>
+<creator id="1461876220631"><individualName><givenName>Rick</givenName>
+<surName>Bourbonniere</surName>
+</individualName>
+<electronicMailAddress>rick.bourbon@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1449525333818"><individualName><givenName>Larry L.</givenName>
+<surName>Bowman, Jr.</surName>
+</individualName>
+<organizationName>Yale University</organizationName>
+<address><deliveryPoint>165 Prospect St, OML 426</deliveryPoint>
+<city>New Haven</city>
+<administrativeArea>Connecticut</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>larry.bowman@yale.edu</electronicMailAddress>
+</creator>
+<creator id="1449525667082"><individualName><givenName>Sandra</givenName>
+<surName>Brovold</surName>
+</individualName>
+<electronicMailAddress>brovo001@d.umn.edu</electronicMailAddress>
+</creator>
+<creator id="1449525685417"><individualName><givenName>Lluis</givenName>
+<surName>Camarero</surName>
+</individualName>
+<electronicMailAddress>camarero@ceab.csic.es</electronicMailAddress>
+</creator>
+<creator id="1449525296712"><individualName><givenName>Cayelan C.</givenName>
+<surName>Carey</surName>
+</individualName>
+<organizationName>Virginia Tech</organizationName>
+<address><deliveryPoint>1405 Perry Street</deliveryPoint>
+<city>Blacksburg</city>
+<administrativeArea>Virginia</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>cayelan@vt.edu</electronicMailAddress>
+</creator>
+<creator id="1449525722631"><individualName><givenName>Jordi</givenName>
+<surName>Catalan</surName>
+</individualName>
+<electronicMailAddress>j.catalan@creaf.uab.cat</electronicMailAddress>
+</creator>
+<creator id="1449525224989"><individualName><givenName>William</givenName>
+<surName>Colom-Montero</surName>
+</individualName>
+<organizationName>Uppsala University</organizationName>
+<address><deliveryPoint>Norra Malmavägen 45</deliveryPoint>
+<city>Norrtälje</city>
+<postalCode>76173</postalCode>
+<country>Sweden</country>
+</address>
+<electronicMailAddress>william.colom@ebc.uu.se</electronicMailAddress>
+</creator>
+<creator id="1449525893103"><individualName><givenName>Marisol</givenName>
+<surName>Felip</surName>
+</individualName>
+<electronicMailAddress>mfelip@ub.edu</electronicMailAddress>
+</creator>
+<creator id="1449525909175"><individualName><givenName>Laura</givenName>
+<surName>Forsstrom</surName>
+</individualName>
+<electronicMailAddress>laura.forsstrom@helsinki.fi</electronicMailAddress>
+</creator>
+<creator id="1449525925514"><individualName><givenName>Ignacio</givenName>
+<surName>Granados</surName>
+</individualName>
+<electronicMailAddress>kiko.granados@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1449524895870"><individualName><givenName>Corinna</givenName>
+<surName>Gries</surName>
+</individualName>
+<organizationName>University of Wisconsin</organizationName>
+<address><deliveryPoint>680 N Park st</deliveryPoint>
+<city>Madison</city>
+<administrativeArea>Wisconsin</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>cgries@wisc.edu</electronicMailAddress>
+</creator>
+<creator id="1449525944129"><individualName><givenName>Guillaume</givenName>
+<surName>Grosbois</surName>
+</individualName>
+<electronicMailAddress>guillaume.grosbois1@uqac.ca</electronicMailAddress>
+</creator>
+<creator id="1449525961888"><individualName><givenName>Hans-Peter</givenName>
+<surName>Grossart</surName>
+</individualName>
+<electronicMailAddress>hgrossart@igb-berlin.de</electronicMailAddress>
+</creator>
+<creator id="1449527019280"><individualName><givenName>Juta</givenName>
+<surName>Haberman</surName>
+</individualName>
+<electronicMailAddress>juta.haberman@emu.ee</electronicMailAddress>
+</creator>
+<creator id="1449526826229"><individualName><givenName>Marina</givenName>
+<surName>Haldna</surName>
+</individualName>
+<electronicMailAddress>Marina.Haldna@emu.ee</electronicMailAddress>
+</creator>
+<creator id="1449525979001"><individualName><givenName>Chris</givenName>
+<surName>Harrod</surName>
+</individualName>
+<electronicMailAddress>chris@harrodlab.net</electronicMailAddress>
+</creator>
+<creator id="1449526000520"><individualName><givenName>Brian</givenName>
+<surName>Hayden</surName>
+</individualName>
+<organizationName>University of New Brunswick</organizationName>
+<address><deliveryPoint>10 Bailey Drive</deliveryPoint>
+<city>Fredericton</city>
+<administrativeArea>New Brunswick</administrativeArea>
+<country>Canada</country>
+</address>
+<electronicMailAddress>brian.hayden@unb.ca</electronicMailAddress>
+</creator>
+<creator id="1449526042973"><individualName><givenName>Scott N.</givenName>
+<surName>Higgins</surName>
+</individualName>
+<organizationName>IISD Experimental Lakes Area</organizationName>
+<address><deliveryPoint>111 Lombard Avenue</deliveryPoint>
+<city>Winnipeg</city>
+<administrativeArea>Manitoba</administrativeArea>
+<country>Canada</country>
+</address>
+<electronicMailAddress>shiggins@iisd-ela.org</electronicMailAddress>
+</creator>
+<creator id="1480543340935"><individualName><givenName>Jeff C.</givenName>
+<surName>Jolley</surName>
+</individualName>
+<organizationName>USFWS</organizationName>
+<electronicMailAddress>flyingj29@yahoo.com</electronicMailAddress>
+</creator>
+<creator id="1449526111091"><individualName><givenName>Kimmo K.</givenName>
+<surName>Kahilainen</surName>
+</individualName>
+<organizationName>University of Helsinki</organizationName>
+<address><deliveryPoint>University of Helsinki</deliveryPoint>
+<city>Helsinki</city>
+<country>Finland</country>
+</address>
+<electronicMailAddress>kahilain@mappi.helsinki.fi</electronicMailAddress>
+</creator>
+<creator id="1449526178610"><individualName><givenName>Enn</givenName>
+<surName>Kaup</surName>
+</individualName>
+<electronicMailAddress>enn.kaup@ttu.ee</electronicMailAddress>
+</creator>
+<creator id="1449526191826"><individualName><givenName>Michael J.</givenName>
+<surName>Kehoe</surName>
+</individualName>
+<electronicMailAddress>kehoe.michael@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1449527112593"><individualName><givenName>T.Y.</givenName>
+<surName>Kim</surName>
+</individualName>
+</creator>
+<creator id="1449526211866"><individualName><givenName>Daniel</givenName>
+<surName>Langenhaun</surName>
+</individualName>
+<electronicMailAddress>langenhaun@igb-berlin.de</electronicMailAddress>
+</creator>
+<creator id="1449527069790"><individualName><givenName>Reet</givenName>
+<surName>Laugaste</surName>
+</individualName>
+</creator>
+<creator id="1449526227564"><individualName><givenName>Noah R.</givenName>
+<surName>Lottig</surName>
+</individualName>
+<electronicMailAddress>nrlottig@wisc.edu</electronicMailAddress>
+</creator>
+<creator id="1449526246092"><individualName><givenName>Sally</givenName>
+<surName>MacIntyre</surName>
+</individualName>
+<electronicMailAddress>sally@eri.ucsb.edu</electronicMailAddress>
+</creator>
+<creator id="1473184651801"><individualName><givenName>Anson W.</givenName>
+<surName>Mackay</surName>
+</individualName>
+<organizationName>University College London</organizationName>
+<electronicMailAddress>a.mackay@ucl.ac.uk</electronicMailAddress>
+</creator>
+<creator id="1449526264578"><individualName><givenName>Heather L.</givenName>
+<surName>Mariash</surName>
+</individualName>
+<electronicMailAddress>heather.mariash@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1449525392116"><individualName><givenName>Robert M.</givenName>
+<surName>McKay</surName>
+</individualName>
+<organizationName>Bowling Green State University</organizationName>
+<address><city>Bowling Green</city>
+<administrativeArea>Ohio</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>rmmckay@bgsu.edu</electronicMailAddress>
+</creator>
+<creator id="1449526304126"><individualName><givenName>Brigitte</givenName>
+<surName>Nixdorf</surName>
+</individualName>
+<electronicMailAddress>nixdorf@tu-cottbus.de</electronicMailAddress>
+</creator>
+<creator id="1449524703590"><individualName><givenName>Peeter</givenName>
+<surName>Nõges</surName>
+</individualName>
+<organizationName>Estonian University of Life Sciences</organizationName>
+<address><deliveryPoint>61117 Rannu, Vehendi</deliveryPoint>
+<city>Tartu</city>
+<country>Estonia</country>
+</address>
+<electronicMailAddress>peeter.noges@emu.ee</electronicMailAddress>
+</creator>
+<creator id="1449526321909"><individualName><givenName>Tiina</givenName>
+<surName>Nõges</surName>
+</individualName>
+<electronicMailAddress>tiina.noges@emu.ee</electronicMailAddress>
+</creator>
+<creator id="1449524786740"><individualName><givenName>Rebecca L.</givenName>
+<surName>North</surName>
+</individualName>
+<organizationName>University of Saskatchewan</organizationName>
+<address><deliveryPoint>11 Innovation Boulevard</deliveryPoint>
+<city>Saskatoon</city>
+<administrativeArea>Saskatchewan</administrativeArea>
+<country>Canada</country>
+</address>
+<electronicMailAddress>rebeccalnorth@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1473184776574"><individualName><givenName>Deniz</givenName>
+<surName>Özkundakci</surName>
+</individualName>
+<organizationName>Leibniz Institute of Freshwater Ecology and Inland Fisheries</organizationName>
+<electronicMailAddress>oezkundakci@igb-berlin.de</electronicMailAddress>
+</creator>
+<creator id="1449526380442"><individualName><givenName>Michelle</givenName>
+<surName>Palmer</surName>
+</individualName>
+<electronicMailAddress>michelle.palmer@ontario.ca</electronicMailAddress>
+</creator>
+<creator id="1473184875435"><individualName><givenName>Virginia</givenName>
+<surName>Panizzo</surName>
+</individualName>
+<organizationName>University of Nottingham</organizationName>
+<electronicMailAddress>virginia.panizzo@nottingham.ac.uk</electronicMailAddress>
+</creator>
+<creator id="1449526396669"><individualName><givenName>Don C.</givenName>
+<surName>Pierson</surName>
+</individualName>
+<electronicMailAddress>don.pierson@ebc.uu.se</electronicMailAddress>
+</creator>
+<creator id="1449525361578"><individualName><givenName>David M.</givenName>
+<surName>Post</surName>
+</individualName>
+<organizationName>Yale University</organizationName>
+<address><deliveryPoint>165 Prospect St, OML 426</deliveryPoint>
+<city>New Haven</city>
+<administrativeArea>Connecticut</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>david.post@yale.edu</electronicMailAddress>
+</creator>
+<creator id="1476809217945"><individualName><givenName>Stephen M.</givenName>
+<surName>Powers</surName>
+</individualName>
+<organizationName>Washington State University</organizationName>
+<electronicMailAddress>steve.powers@wsu.edu</electronicMailAddress>
+</creator>
+<creator id="1449525078425"><individualName><givenName>Milla</givenName>
+<surName>Rautio</surName>
+</individualName>
+<organizationName>Université du Québec à Chicoutimi</organizationName>
+<address><deliveryPoint>555, boulevard de l'Université</deliveryPoint>
+<city>Chicoutimi</city>
+<administrativeArea>Québec</administrativeArea>
+<postalCode>G7H 2B1</postalCode>
+<country>Canada</country>
+</address>
+<electronicMailAddress>milla.rautio@uqac.ca</electronicMailAddress>
+</creator>
+<creator id="1449524932593"><individualName><givenName>Sarah L.</givenName>
+<surName>Roberts</surName>
+</individualName>
+<organizationName>University of Nottingham</organizationName>
+<address><deliveryPoint>University Park</deliveryPoint>
+<city>Nottingham</city>
+<postalCode>NG7 2RD</postalCode>
+<country>UK</country>
+</address>
+<electronicMailAddress>sarah.roberts@nottingham.ac.uk</electronicMailAddress>
+</creator>
+<creator id="1449526498566"><individualName><givenName>Giampaolo</givenName>
+<surName>Rosetti</surName>
+</individualName>
+<electronicMailAddress>giampaolo.rossetti@unipr.it</electronicMailAddress>
+</creator>
+<creator id="1449526521566"><individualName><givenName>Jacqueline</givenName>
+<surName>Rücker</surName>
+</individualName>
+<electronicMailAddress>j.ruecker@tu-cottbus.de</electronicMailAddress>
+</creator>
+<creator id="1449526557578"><individualName><givenName>Steven</givenName>
+<surName>Sadro</surName>
+</individualName>
+<electronicMailAddress>steven.sadro@lifesci.ucsb.edu</electronicMailAddress>
+</creator>
+<creator id="1449526806827"><individualName><givenName>Derek E.</givenName>
+<surName>Smith</surName>
+</individualName>
+<electronicMailAddress>smith.derek.e@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1449527090178"><individualName><givenName>R.E.H.</givenName>
+<surName>Smith</surName>
+</individualName>
+</creator>
+<creator id="1449526620250"><individualName><givenName>Robert W.</givenName>
+<surName>Sterner</surName>
+</individualName>
+<electronicMailAddress>stern007@d.umn.edu</electronicMailAddress>
+</creator>
+<creator id="1449525422098"><individualName><givenName>Jason D.</givenName>
+<surName>Stockwell</surName>
+</individualName>
+<organizationName>University of Vermont</organizationName>
+<address><deliveryPoint>3 College St.</deliveryPoint>
+<city>Burlington</city>
+<administrativeArea>Vermont</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>jason.stockwell@uvm.edu</electronicMailAddress>
+</creator>
+<creator id="1449524855599"><individualName><givenName>George E. A.</givenName>
+<surName>Swann</surName>
+</individualName>
+<organizationName>University of Nottingham</organizationName>
+<address><deliveryPoint>University Park</deliveryPoint>
+<city>Nottingham</city>
+<postalCode>NG7 2RD</postalCode>
+<country>UK</country>
+</address>
+<electronicMailAddress>george.swann@nottingham.ac.uk</electronicMailAddress>
+</creator>
+<creator id="1449527042572"><individualName><givenName>Helen</givenName>
+<surName>Tammert</surName>
+</individualName>
+<electronicMailAddress>helen.tammert@ut.ee</electronicMailAddress>
+</creator>
+<creator id="1449526646055"><individualName><givenName>Manuel</givenName>
+<surName>Toro</surName>
+</individualName>
+<electronicMailAddress>manuel.toro@cedex.es</electronicMailAddress>
+</creator>
+<creator id="1449526665016"><individualName><givenName>Michael R.</givenName>
+<surName>Twiss</surName>
+</individualName>
+<organizationName>Clarkson University</organizationName>
+<address><deliveryPoint>8 Clarkson Avenue</deliveryPoint>
+<city>Potsdam</city>
+<administrativeArea>New York</administrativeArea>
+<country>USA</country>
+</address>
+<electronicMailAddress>mtwiss@clarkson.edu</electronicMailAddress>
+</creator>
+<creator id="1449526701641"><individualName><givenName>Richard J.</givenName>
+<surName>Vogt</surName>
+</individualName>
+<electronicMailAddress>richvogt@gmail.com</electronicMailAddress>
+</creator>
+<creator id="1461876309087"><individualName><givenName>Susan B.</givenName>
+<surName>Watson</surName>
+</individualName>
+<electronicMailAddress>sue.watson@canada.ca</electronicMailAddress>
+</creator>
+<creator id="1449524976000"><individualName><givenName>Gesa A.</givenName>
+<surName>Weyhenmeyer</surName>
+</individualName>
+<organizationName>Uppsala University</organizationName>
+<address><deliveryPoint>Norbyvägen 18D</deliveryPoint>
+<city>Uppsala</city>
+<postalCode>75236</postalCode>
+<country>Sweden</country>
+</address>
+<electronicMailAddress>gesa.weyhenmeyer@ebc.uu.se</electronicMailAddress>
+</creator>
+<creator id="1449526749201"><individualName><givenName>Erika J.</givenName>
+<surName>Whiteford</surName>
+</individualName>
+<electronicMailAddress>E.J.Whiteford@lboro.ac.uk</electronicMailAddress>
+</creator>
+<creator id="1449526770961"><individualName><givenName>Marguerite A.</givenName>
+<surName>Xenopoulos</surName>
+</individualName>
+<electronicMailAddress>mxenopoulos@trentu.ca</electronicMailAddress>
+</creator>
+<creator id="1449526984739"><individualName><givenName>Priit</givenName>
+<surName>Zingel</surName>
+</individualName>
+<electronicMailAddress>priit.zingel@emu.ee</electronicMailAddress>
+</creator>
+                                                                     <abstract><para>The goal of this data collection was to compile diverse existing data in order to summarize and contrast ecologically relevant parameters in lakes during ice-on (winter) and ice-free (summer stratification) periods. There are 89 unique lakes in this dataset, ranging from small, shallow lakes to large, deep lakes. Lakes are from eleven different countries, primarily in North America and Europe; Antarctica is the only southern hemisphere location represented in the dataset. Variables collected include physical, chemical, and biological, as well as a suite of metadata variables. Chlorophyll a data are particularly well-represented across lakes, while many variables (e.g. zooplankton variables) are only available for a smaller subset of lakes. Temporal coverage for unique lake/sample stations range from one year to a span of 73 years, with 20 lake/stations having at least 30 years of data.
+
+Synthesis analyses based on this dataset are available in: Hampton et al. (2016). Ecology under lake ice. Ecology Letters. doi: 10.1111/ele.12699. It must be stressed that the data here are not raw values from the original sampling, but aggregated values, based on varying initial sampling efforts and protocols, calculated by individual researchers. Please carefully review Supplemental Document S1 and the methods described in Hampton et al. (2016) for detailed information about how data were collected and aggregated, as well as units associated with each variable.</para>
+</abstract>
+  <keywordSet> <keyword>under ice</keyword>
+ <keyword>winter ecology</keyword>
+ <keyword>winter limnology</keyword>
+ <keyword>seasonal data</keyword>
+ <keyword>synthesis</keyword>
+ <keyword>lakes</keyword>
+ <keyword>limnology</keyword>
+ <keyword>freshwater</keyword>
+ </keywordSet>
+ <intellectualRights><para>This dataset provides biological, chemical, and physical data for a wide array of lakes, with extensive spatial and temporal coverage. Synthesis analyses are available for review in: Hampton et al. (2016). Ecology under lake ice. Ecology Letters. doi: 10.1111/ele.12699. This dataset is available for further analysis. Please consider contacting one or all of the contacts if you are interested in collaborating on related or new topics with this dataset.
+
+Please note that 13 datasets included in Hampton et al. 2016  are not able to be publicly published at this time. These include one long-term dataset from Lake Baikal and short-term datasets for 12 lakes in Minnesota (Bellevue, Blakesly, Frolund, Leverson, Mavis West, Morrison, Murk, Org, Pisa, Skunk, Todd North, and Todd South). For information about the 12 Minnesota lakes, please contact Leah Domine (domi7653@stthomas.edu).
+
+For copies of data aggregation instructions and format template submitted to project participants, see Supplemental Information (Doc S1) for Hampton et al. 2016.
+
+Please note that the data here is provided &quot;as is&quot; and future users may need to filter and otherwise subset the data to suit their needs. For example, there are zero values in this data set for variables which may in fact simply be below detection limits, as well as non-zero values that may be below most modern detection limits (e.g. TDP &lt; 1 ug/L). Users are encouraged to use their expert judgement in cases of potential outliers. Additionally, a careful reading of the information provided by researchers in the &quot;comments&quot; and &quot;narrat&quot; fields for each sample/row in this dataset will facilitate decision-making about which data subsets are most appropriate, depending on research question. For instance, net size may have consequences for zooplankton proportions (i.e. rotifers) and labratory methodology may impact results (e.g. dissolved nutrients).
+
+For specific information about the data subset used in Hampton et al. 2016, please see the analysis scripts on Github (DOI: 10.5281/zenodo.179248) or contact Stephanie Hampton.</para>
+ </intellectualRights>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1940</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2015</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Globally distributed freshwater lakes</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>180.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>-179.82000000000002</eastBoundingCoordinate>
+ <northBoundingCoordinate>90.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-90.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>North Temperate Lakes LTER (NTL)</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.625</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.125</northBoundingCoordinate>
+ <southBoundingCoordinate>46.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Allequash Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.621</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.621</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.038</northBoundingCoordinate>
+ <southBoundingCoordinate>46.038</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>AT1</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-53.410278</westBoundingCoordinate>
+ <eastBoundingCoordinate>-53.410278</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.965833</northBoundingCoordinate>
+ <southBoundingCoordinate>67.965833</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>AT2</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-53.430556</westBoundingCoordinate>
+ <eastBoundingCoordinate>-53.430556</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.964167</northBoundingCoordinate>
+ <southBoundingCoordinate>67.964167</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>AT4</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-53.499444</westBoundingCoordinate>
+ <eastBoundingCoordinate>-53.499444</eastBoundingCoordinate>
+ <northBoundingCoordinate>66.961944</northBoundingCoordinate>
+ <southBoundingCoordinate>66.961944</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>AT6</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-53.499444</westBoundingCoordinate>
+ <eastBoundingCoordinate>-53.499444</eastBoundingCoordinate>
+ <northBoundingCoordinate>66.968056</northBoundingCoordinate>
+ <southBoundingCoordinate>66.968056</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>AT7</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-53.585278</westBoundingCoordinate>
+ <eastBoundingCoordinate>-53.585278</eastBoundingCoordinate>
+ <northBoundingCoordinate>66.9725</northBoundingCoordinate>
+ <southBoundingCoordinate>66.9725</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>AT8</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-53.583333</westBoundingCoordinate>
+ <eastBoundingCoordinate>-53.583333</eastBoundingCoordinate>
+ <northBoundingCoordinate>66.971111</northBoundingCoordinate>
+ <southBoundingCoordinate>66.971111</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Big Muskellunge Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.612</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.612</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.021</northBoundingCoordinate>
+ <southBoundingCoordinate>46.021</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Blackstrap Reservoir</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-106.44931</westBoundingCoordinate>
+ <eastBoundingCoordinate>-106.44931</eastBoundingCoordinate>
+ <northBoundingCoordinate>51.78303</northBoundingCoordinate>
+ <southBoundingCoordinate>51.78303</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Bride Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-72.2377</westBoundingCoordinate>
+ <eastBoundingCoordinate>-72.2377</eastBoundingCoordinate>
+ <northBoundingCoordinate>41.3273</northBoundingCoordinate>
+ <southBoundingCoordinate>41.3273</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Broderick Reservoir</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-106.91446</westBoundingCoordinate>
+ <eastBoundingCoordinate>-106.91446</eastBoundingCoordinate>
+ <northBoundingCoordinate>51.465416</northBoundingCoordinate>
+ <southBoundingCoordinate>51.465416</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Buffalo Pound Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-105.5</westBoundingCoordinate>
+ <eastBoundingCoordinate>-105.5</eastBoundingCoordinate>
+ <northBoundingCoordinate>50.65</northBoundingCoordinate>
+ <southBoundingCoordinate>50.65</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Chapel Pond, ALSC #020274</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-73.7472</westBoundingCoordinate>
+ <eastBoundingCoordinate>-73.7472</eastBoundingCoordinate>
+ <northBoundingCoordinate>44.13976</northBoundingCoordinate>
+ <southBoundingCoordinate>44.13976</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Cimera Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-5.305636</westBoundingCoordinate>
+ <eastBoundingCoordinate>-5.305636</eastBoundingCoordinate>
+ <northBoundingCoordinate>40.263655</northBoundingCoordinate>
+ <southBoundingCoordinate>40.263655</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Crystal Bog</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.606</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.606</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.008</northBoundingCoordinate>
+ <southBoundingCoordinate>46.008</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Crystal Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.612</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.612</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.003</northBoundingCoordinate>
+ <southBoundingCoordinate>46.003</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Dodge Pond</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-72.1983</westBoundingCoordinate>
+ <eastBoundingCoordinate>-72.1983</eastBoundingCoordinate>
+ <northBoundingCoordinate>41.3277</northBoundingCoordinate>
+ <southBoundingCoordinate>41.3277</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Emerald Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-118.676023</westBoundingCoordinate>
+ <eastBoundingCoordinate>-118.676023</eastBoundingCoordinate>
+ <northBoundingCoordinate>36.597591</northBoundingCoordinate>
+ <southBoundingCoordinate>36.597591</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Falling Creek Reservoir</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-79.8363</westBoundingCoordinate>
+ <eastBoundingCoordinate>-79.8363</eastBoundingCoordinate>
+ <northBoundingCoordinate>37.3036</northBoundingCoordinate>
+ <southBoundingCoordinate>37.3036</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Fish Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.652</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.652</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.287</northBoundingCoordinate>
+ <southBoundingCoordinate>43.287</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake 227</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-93.6888</westBoundingCoordinate>
+ <eastBoundingCoordinate>-93.6888</eastBoundingCoordinate>
+ <northBoundingCoordinate>49.68769</northBoundingCoordinate>
+ <southBoundingCoordinate>49.68769</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake 239</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-93.7226892</westBoundingCoordinate>
+ <eastBoundingCoordinate>-93.7226892</eastBoundingCoordinate>
+ <northBoundingCoordinate>49.662654</northBoundingCoordinate>
+ <southBoundingCoordinate>49.662654</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Algae</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>100.752222</westBoundingCoordinate>
+ <eastBoundingCoordinate>100.752222</eastBoundingCoordinate>
+ <northBoundingCoordinate>-66.280555</northBoundingCoordinate>
+ <southBoundingCoordinate>-66.280555</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Baikal</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>103.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>110.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>56.125</northBoundingCoordinate>
+ <southBoundingCoordinate>51.125</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Diefenbaker</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-106.01</westBoundingCoordinate>
+ <eastBoundingCoordinate>-106.01</eastBoundingCoordinate>
+ <northBoundingCoordinate>51.0016</northBoundingCoordinate>
+ <southBoundingCoordinate>51.0016</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Erie</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-83.125</westBoundingCoordinate>
+ <eastBoundingCoordinate>-78.875</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.0</northBoundingCoordinate>
+ <southBoundingCoordinate>41.125</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Erken</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>18.625827</westBoundingCoordinate>
+ <eastBoundingCoordinate>18.625827</eastBoundingCoordinate>
+ <northBoundingCoordinate>59.840292</northBoundingCoordinate>
+ <southBoundingCoordinate>59.840292</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Glubokoye</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>11.81333</westBoundingCoordinate>
+ <eastBoundingCoordinate>11.81333</eastBoundingCoordinate>
+ <northBoundingCoordinate>-70.76083</northBoundingCoordinate>
+ <southBoundingCoordinate>-70.76083</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Grosse Fuchskuhle</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>13.02</westBoundingCoordinate>
+ <eastBoundingCoordinate>13.02</eastBoundingCoordinate>
+ <northBoundingCoordinate>53.1</northBoundingCoordinate>
+ <southBoundingCoordinate>53.1</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Huron</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-84.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>-81.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.0</northBoundingCoordinate>
+ <southBoundingCoordinate>43.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Kilpis</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>20.79</westBoundingCoordinate>
+ <eastBoundingCoordinate>20.79</eastBoundingCoordinate>
+ <northBoundingCoordinate>69.04</northBoundingCoordinate>
+ <southBoundingCoordinate>69.04</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Kivi</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>21.28</westBoundingCoordinate>
+ <eastBoundingCoordinate>21.28</eastBoundingCoordinate>
+ <northBoundingCoordinate>68.82</northBoundingCoordinate>
+ <southBoundingCoordinate>68.82</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Kuohkima</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>20.33</westBoundingCoordinate>
+ <eastBoundingCoordinate>20.33</eastBoundingCoordinate>
+ <northBoundingCoordinate>69.03</northBoundingCoordinate>
+ <southBoundingCoordinate>69.03</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Mendota</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.099</northBoundingCoordinate>
+ <southBoundingCoordinate>43.099</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Michigan</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-88.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>-85.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.125</northBoundingCoordinate>
+ <southBoundingCoordinate>41.5</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Monona</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.361</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.361</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.063</northBoundingCoordinate>
+ <southBoundingCoordinate>43.063</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Muddus</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>26.94</westBoundingCoordinate>
+ <eastBoundingCoordinate>26.94</eastBoundingCoordinate>
+ <northBoundingCoordinate>69.04</northBoundingCoordinate>
+ <southBoundingCoordinate>69.04</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Oiko</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>20.55</westBoundingCoordinate>
+ <eastBoundingCoordinate>20.55</eastBoundingCoordinate>
+ <northBoundingCoordinate>69.06</northBoundingCoordinate>
+ <southBoundingCoordinate>69.06</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Ontario</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-79.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>-76.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>44.25</northBoundingCoordinate>
+ <southBoundingCoordinate>43.125</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Peipsi</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>27.422</westBoundingCoordinate>
+ <eastBoundingCoordinate>27.422</eastBoundingCoordinate>
+ <northBoundingCoordinate>58.233</northBoundingCoordinate>
+ <southBoundingCoordinate>58.233</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Redon</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>0.77951</westBoundingCoordinate>
+ <eastBoundingCoordinate>0.77951</eastBoundingCoordinate>
+ <northBoundingCoordinate>42.6421</northBoundingCoordinate>
+ <southBoundingCoordinate>42.6421</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Ropi</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>21.59</westBoundingCoordinate>
+ <eastBoundingCoordinate>21.59</eastBoundingCoordinate>
+ <northBoundingCoordinate>68.68</northBoundingCoordinate>
+ <southBoundingCoordinate>68.68</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Santo Parmense</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>10.0081</westBoundingCoordinate>
+ <eastBoundingCoordinate>10.0081</eastBoundingCoordinate>
+ <northBoundingCoordinate>44.4016</northBoundingCoordinate>
+ <southBoundingCoordinate>44.4016</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Scuro Parmense</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>10.046</westBoundingCoordinate>
+ <eastBoundingCoordinate>10.046</eastBoundingCoordinate>
+ <northBoundingCoordinate>44.382</northBoundingCoordinate>
+ <southBoundingCoordinate>44.382</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Siilas</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>20.76</westBoundingCoordinate>
+ <eastBoundingCoordinate>20.76</eastBoundingCoordinate>
+ <northBoundingCoordinate>69.06</northBoundingCoordinate>
+ <southBoundingCoordinate>69.06</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Simcoe</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-79.513</westBoundingCoordinate>
+ <eastBoundingCoordinate>-79.295625</eastBoundingCoordinate>
+ <northBoundingCoordinate>44.375</northBoundingCoordinate>
+ <southBoundingCoordinate>44.2116</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Stechlin</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>13.03</westBoundingCoordinate>
+ <eastBoundingCoordinate>13.03</eastBoundingCoordinate>
+ <northBoundingCoordinate>53.15</northBoundingCoordinate>
+ <southBoundingCoordinate>53.15</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Superior</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-92.0</westBoundingCoordinate>
+ <eastBoundingCoordinate>-84.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>49.0</northBoundingCoordinate>
+ <southBoundingCoordinate>46.25</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Valkea-Kotinen</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>25.0627</westBoundingCoordinate>
+ <eastBoundingCoordinate>25.0627</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.2423</northBoundingCoordinate>
+ <southBoundingCoordinate>61.2423</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Vanajanselka</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>24.2638</westBoundingCoordinate>
+ <eastBoundingCoordinate>24.2638</eastBoundingCoordinate>
+ <northBoundingCoordinate>61.1569</northBoundingCoordinate>
+ <southBoundingCoordinate>61.1569</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Vastus</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>27.12</westBoundingCoordinate>
+ <eastBoundingCoordinate>27.12</eastBoundingCoordinate>
+ <northBoundingCoordinate>69.07</northBoundingCoordinate>
+ <southBoundingCoordinate>69.07</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Vortsjarv</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>26.1056</westBoundingCoordinate>
+ <eastBoundingCoordinate>26.1056</eastBoundingCoordinate>
+ <northBoundingCoordinate>58.2111</northBoundingCoordinate>
+ <southBoundingCoordinate>58.2111</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Wingra</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.425</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.425</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.053</northBoundingCoordinate>
+ <southBoundingCoordinate>43.053</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lake Winnipeg</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-98.9014</westBoundingCoordinate>
+ <eastBoundingCoordinate>-98.9014</eastBoundingCoordinate>
+ <northBoundingCoordinate>53.2088</northBoundingCoordinate>
+ <southBoundingCoordinate>53.2088</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Linsley Pond</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-72.7846</westBoundingCoordinate>
+ <eastBoundingCoordinate>-72.7846</eastBoundingCoordinate>
+ <northBoundingCoordinate>41.3174</northBoundingCoordinate>
+ <southBoundingCoordinate>41.3174</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Lower Cascade, ALSC #020270</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-73.8733</westBoundingCoordinate>
+ <eastBoundingCoordinate>-73.8733</eastBoundingCoordinate>
+ <northBoundingCoordinate>44.2262</northBoundingCoordinate>
+ <southBoundingCoordinate>44.2262</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Muggelsee</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>13.65</westBoundingCoordinate>
+ <eastBoundingCoordinate>13.65</eastBoundingCoordinate>
+ <northBoundingCoordinate>52.4333</northBoundingCoordinate>
+ <southBoundingCoordinate>52.4333</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Pattagansett Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-72.2302</westBoundingCoordinate>
+ <eastBoundingCoordinate>-72.2302</eastBoundingCoordinate>
+ <northBoundingCoordinate>41.3744</northBoundingCoordinate>
+ <southBoundingCoordinate>41.3744</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Penalara Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-3.95759</westBoundingCoordinate>
+ <eastBoundingCoordinate>-3.95759</eastBoundingCoordinate>
+ <northBoundingCoordinate>40.84</northBoundingCoordinate>
+ <southBoundingCoordinate>40.84</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Polest</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>100.667</westBoundingCoordinate>
+ <eastBoundingCoordinate>100.667</eastBoundingCoordinate>
+ <northBoundingCoordinate>-66.2383</northBoundingCoordinate>
+ <southBoundingCoordinate>-66.2383</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Pony Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-100.511</westBoundingCoordinate>
+ <eastBoundingCoordinate>-100.511</eastBoundingCoordinate>
+ <northBoundingCoordinate>42.4874</northBoundingCoordinate>
+ <southBoundingCoordinate>42.4874</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Quonnipaug Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-72.6972</westBoundingCoordinate>
+ <eastBoundingCoordinate>-72.6972</eastBoundingCoordinate>
+ <northBoundingCoordinate>41.3921</northBoundingCoordinate>
+ <southBoundingCoordinate>41.3921</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Rogers Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-72.2997</westBoundingCoordinate>
+ <eastBoundingCoordinate>-72.2997</eastBoundingCoordinate>
+ <northBoundingCoordinate>41.3642</northBoundingCoordinate>
+ <southBoundingCoordinate>41.3642</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS1341</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-51.1417</westBoundingCoordinate>
+ <eastBoundingCoordinate>-51.1417</eastBoundingCoordinate>
+ <northBoundingCoordinate>66.9908</northBoundingCoordinate>
+ <southBoundingCoordinate>66.9908</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS1381</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-51.1167</westBoundingCoordinate>
+ <eastBoundingCoordinate>-51.1167</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.0158</northBoundingCoordinate>
+ <southBoundingCoordinate>67.0158</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS1590</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-50.9833</westBoundingCoordinate>
+ <eastBoundingCoordinate>-50.9833</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.0083</northBoundingCoordinate>
+ <southBoundingCoordinate>67.0083</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS2</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-50.9603</westBoundingCoordinate>
+ <eastBoundingCoordinate>-50.9603</eastBoundingCoordinate>
+ <northBoundingCoordinate>66.9958</northBoundingCoordinate>
+ <southBoundingCoordinate>66.9958</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS8</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-51.0744</westBoundingCoordinate>
+ <eastBoundingCoordinate>-51.0744</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.0133</northBoundingCoordinate>
+ <southBoundingCoordinate>67.0133</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS85</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-51.0556</westBoundingCoordinate>
+ <eastBoundingCoordinate>-51.0556</eastBoundingCoordinate>
+ <northBoundingCoordinate>66.9828</northBoundingCoordinate>
+ <southBoundingCoordinate>66.9828</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS901</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-50.2333</westBoundingCoordinate>
+ <eastBoundingCoordinate>-50.2333</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.1294</northBoundingCoordinate>
+ <southBoundingCoordinate>67.1294</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS902</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-50.2175</westBoundingCoordinate>
+ <eastBoundingCoordinate>-50.2175</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.1281</northBoundingCoordinate>
+ <southBoundingCoordinate>67.1281</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS903</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-50.1736</westBoundingCoordinate>
+ <eastBoundingCoordinate>-50.1736</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.1275</northBoundingCoordinate>
+ <southBoundingCoordinate>67.1275</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS904</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-50.2781</westBoundingCoordinate>
+ <eastBoundingCoordinate>-50.2781</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.1567</northBoundingCoordinate>
+ <southBoundingCoordinate>67.1567</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>SS905</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-50.2836</westBoundingCoordinate>
+ <eastBoundingCoordinate>-50.2836</eastBoundingCoordinate>
+ <northBoundingCoordinate>67.1619</northBoundingCoordinate>
+ <southBoundingCoordinate>67.1619</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Saanajarvi</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>20.783</westBoundingCoordinate>
+ <eastBoundingCoordinate>20.783</eastBoundingCoordinate>
+ <northBoundingCoordinate>69.083</northBoundingCoordinate>
+ <southBoundingCoordinate>69.083</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Scharmuetzelsee</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>14.0235</westBoundingCoordinate>
+ <eastBoundingCoordinate>14.0235</eastBoundingCoordinate>
+ <northBoundingCoordinate>52.2168</northBoundingCoordinate>
+ <southBoundingCoordinate>52.2168</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Shelburne Pond</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-73.1629</westBoundingCoordinate>
+ <eastBoundingCoordinate>-73.1629</eastBoundingCoordinate>
+ <northBoundingCoordinate>44.3941</northBoundingCoordinate>
+ <southBoundingCoordinate>44.3941</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Simoncouche</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-71.2511</westBoundingCoordinate>
+ <eastBoundingCoordinate>-71.2511</eastBoundingCoordinate>
+ <northBoundingCoordinate>48.2327</northBoundingCoordinate>
+ <southBoundingCoordinate>48.2327</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Sparkling Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.701</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.701</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.008</northBoundingCoordinate>
+ <southBoundingCoordinate>46.008</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>St. Denis Pond 1</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-106.089</westBoundingCoordinate>
+ <eastBoundingCoordinate>-106.089</eastBoundingCoordinate>
+ <northBoundingCoordinate>52.2133</northBoundingCoordinate>
+ <southBoundingCoordinate>52.2133</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>St. Denis Pond 90</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-106.08</westBoundingCoordinate>
+ <eastBoundingCoordinate>-106.08</eastBoundingCoordinate>
+ <northBoundingCoordinate>52.2047</northBoundingCoordinate>
+ <southBoundingCoordinate>52.2047</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>St. Denis Pond S5338</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-106.093</westBoundingCoordinate>
+ <eastBoundingCoordinate>-106.093</eastBoundingCoordinate>
+ <northBoundingCoordinate>52.2013</northBoundingCoordinate>
+ <southBoundingCoordinate>52.2013</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Toolik Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-149.614</westBoundingCoordinate>
+ <eastBoundingCoordinate>-149.614</eastBoundingCoordinate>
+ <northBoundingCoordinate>68.6291</northBoundingCoordinate>
+ <southBoundingCoordinate>68.6291</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Trout Bog</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.686</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.686</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.041</northBoundingCoordinate>
+ <southBoundingCoordinate>46.041</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Trout Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-89.665</westBoundingCoordinate>
+ <eastBoundingCoordinate>-89.665</eastBoundingCoordinate>
+ <northBoundingCoordinate>46.029</northBoundingCoordinate>
+ <southBoundingCoordinate>46.029</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Upper Cascade, ALSC #020274</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-73.8786</westBoundingCoordinate>
+ <eastBoundingCoordinate>-73.8786</eastBoundingCoordinate>
+ <northBoundingCoordinate>44.2233</northBoundingCoordinate>
+ <southBoundingCoordinate>44.2233</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Verkhneye</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>11.8147</westBoundingCoordinate>
+ <eastBoundingCoordinate>11.8147</eastBoundingCoordinate>
+ <northBoundingCoordinate>-70.7769</northBoundingCoordinate>
+ <southBoundingCoordinate>-70.7769</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Vostochnoye</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>100.708</westBoundingCoordinate>
+ <eastBoundingCoordinate>100.708</eastBoundingCoordinate>
+ <northBoundingCoordinate>-66.2583</northBoundingCoordinate>
+ <southBoundingCoordinate>-66.2583</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>West Long Lake</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-100.722</westBoundingCoordinate>
+ <eastBoundingCoordinate>-100.722</eastBoundingCoordinate>
+ <northBoundingCoordinate>42.5281</northBoundingCoordinate>
+ <southBoundingCoordinate>42.5281</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <references>1449524412876</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Data aggregation</title>
+ <para>The primary goal was to compare ecological productivity between ice-covered (winter) and ice-free (summer) periods. Therefore, data was aggregated seasonally; for a given sampling station in a given year, there are usually two rows of data observations: ice-on and ice-free, where the ice-on data is an aggregate of all observations taken under ice and the ice-free data is an aggregate of all observations taken from the stratified period (or a comparable summer period) in that lake and station. Each column is a summary of data: sample data were aggregated for each time period across a depth range (the photic zone). Ice-on summary averages were calculated from data collected under ice, whereas ice-free summary data were calculated from data collected under stratified summer conditions. This qualifier, i.e., that the water body during the ice-free period also be stratified, helps to standardize a typical representation of ice-free lake biology, avoiding the periods of most extreme seasonal transitions.</para>
+ <para>If the ice period spans two calendar years, “year” refers to the ice-off year (e.g. if the ice season covered December 2014 through March 2015, “year” is counted as 2015; there are separate columns for the start and end dates of each season that reflect the actual dates of the season). When multiple stations were sampled in a given lake and/or if multiple years of data were available for any given station, these additional data were entered as additional rows (pairs of ice-on and ice-free columns).</para>
+ <para>This dataset includes a &quot;pool station&quot; key to indicate which stations can be grouped together. In these cases, reserachers identified stations which could be aggregated to form a single &quot;functionally distinct&quot; station for analysis purposes (e.g. a set of different stations fall under the same &quot;pool station&quot;). Note that if stations were not able to be pooled together, then the entry in the &quot;pool station&quot; column is the same as the station name.</para>
+ <para>See Supplemental Document S1 in Hampton et al. 2016 for more information.</para>
+ </section>
+ </description>
+ <instrumentation>Data collected include:</instrumentation>
+ <instrumentation>Metadata variables: year, season, researcher, lake name, lake region, lake country, lake area, lake mean depth, lake max depth, lake elevation, watershed area, water residence time, lake fetch, sample station distance (from shore), station name, station depth, station latitude, station longitude, multiple stations (y/n), start sample aggregate day/month/year, end sample aggregate day/month/year, ice duration, number of samples in aggregate, sample narrative (e.g. notes on sampling protocol), sample type (in situ or remote sensed), photic depth, sampled depth, ice depth, snow depth, ice narrative (e.g. ice clarity notes), stable isotope/fatty acid/gut data associated with aggregate (y/n), and food web narrative.</instrumentation>
+ <instrumentation>Physical/chemical variables: water temperature, air temperature, average/cv radiation, average/cv secchi depth, average/cv/max total phosphorous, ave/cv/max total dissolved phosphorous, ave/cv/max total nitrogen,  ave/cv/max total dissolved nitrogen, ave/cv/max total dissolved organic carbon, ave/cv/max specific UV absorbance, ave/cv/max water color, ave/cv/max chlorophyll a, water chemistry narrative (of methods), and profiles available (y/n).</instrumentation>
+ <instrumentation>Biological variables: ave/max phytoplankton primary production; report units and ppr rates and narrative; phytoplankton sampling method; ave/cv/max phytoplankton biomass; ave/cv/max phytoplankton cell count; proportion of chlorophytes, cryptophytes, cyanobacteria, diatoms, dinoflagellates, and other phytoplankton; ave/cv/max ciliate biomass; ave/cv/max ciliate cell count; ave/cv/max heterotrophic nano-flagellate biomass; ave/cv/max heterotrophic nano-flagellate cell count; narrative of zooplankton sampling method; ave/cv/max zooplankton biomass; ave/cv/max zooplankton count; proportion of daphnia, other cladocerans, cyclopoids, calanoid copepods, rotifers, and other zooplankton; ave/cv/max bacterioplankton cell count; ave/cv/max bacterioplankton production; reporting units and method for bacterioplankton production; narrative of bacterioplankton composition; benthic substrate; ave/cv/max benthic algal biomass; ave/cv/max benthic Chl-a; benthic macrophyte biomass; density of Amphipoda, Gastropods, Bivalvia, Insecta, and Oligochaeta; and narrative of any relevant fish data.</instrumentation>
+ </methodStep>
+ </methods>
+ <dataTable id="1480361765649" scope="document"> <entityName>ecology_under_lake_ice_public_data.csv</entityName>
+ <entityDescription>Public dataset associated with Hampton et al. 2016</entityDescription>
+ <physical id="1480356242140" scope="document"> <objectName>ecology_under_lake_ice_public_data.csv</objectName>
+ <size unit="byte">1868060</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>ecogrid://knb/SGL.5.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1480361765662" scope="document"> <attributeName>year</attributeName>
+ <attributeDefinition>Year of sampling</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765663" scope="document"> <attributeName>season</attributeName>
+ <attributeDefinition>Enter ‘iceon’ or ‘iceoff’</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>iceon</code>
+ <definition>winter</definition>
+ </codeDefinition>
+ <codeDefinition> <code>iceoff</code>
+ <definition>summer</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765664" scope="document"> <attributeName>researcher</attributeName>
+ <attributeDefinition>Researcher Name (‘Firstname.Lastname’)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Researcher Name (‘Firstname.Lastname’)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765665" scope="document"> <attributeName>lakename</attributeName>
+ <attributeDefinition>Best proper name (‘Lake X’, or ‘X Lake’, ‘X Reservoir’, etc.) [name that would appear in a publication]</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Best proper name (‘Lake X’, or ‘X Lake’, ‘X Reservoir’, etc.) [name that would appear in a publication]</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765666" scope="document"> <attributeName>lakeregloc</attributeName>
+ <attributeDefinition>Region (Province or State or similar)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Region (Province or State or similar)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765679" scope="document"> <attributeName>lakecountry</attributeName>
+ <attributeDefinition>Country</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Country</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765680" scope="document"> <attributeName>lakearea</attributeName>
+ <attributeDefinition>Surface area of lake (km^2)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareKilometers</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765681" scope="document"> <attributeName>lakemeandepth</attributeName>
+ <attributeDefinition>Mean depth of lake (m)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765682" scope="document"> <attributeName>lakemaxdepth</attributeName>
+ <attributeDefinition>Maximum known depth of lake (m)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765683" scope="document"> <attributeName>lakeelevation</attributeName>
+ <attributeDefinition>Elevation of lake (m) above sea level</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765684" scope="document"> <attributeName>watershedarea</attributeName>
+ <attributeDefinition>Lake watershed (catchment) size (km^2)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareKilometers</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765685" scope="document"> <attributeName>h2oresidence</attributeName>
+ <attributeDefinition>Lake water residence time in days (real number)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalDay</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765696" scope="document"> <attributeName>lakefetch</attributeName>
+ <attributeDefinition>Fetch - maximum distance from shore to shore (km)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>kilometer</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765697" scope="document"> <attributeName>stationdistance</attributeName>
+ <attributeDefinition>Minimum distance (km) from shore to sampling station</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>kilometer</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765698" scope="document"> <attributeName>stationdepth</attributeName>
+ <attributeDefinition>Depth (m) at sampling station [also the depth of benthic biota (fields below) if sampled]</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765711" scope="document"> <attributeName>stationname</attributeName>
+ <attributeDefinition>Name used by researcher that identifies sampling station</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Name used by researcher that identifies sampling station</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765712" scope="document"> <attributeName>poolstation</attributeName>
+ <attributeDefinition>Pooled station (pools nearby/similar stations that can be functionally treated as one)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Pooled station (pools nearby/similar stations that can be functionally treated as one)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765713" scope="document"> <attributeName>stationlat</attributeName>
+ <attributeDefinition>Latitude in deg.decimaldeg (for sampling station)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765729" scope="document"> <attributeName>stationlong</attributeName>
+ <attributeDefinition>Longitude in deg.decimaldeg (for sampling station)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765730" scope="document"> <attributeName>multiplestations</attributeName>
+ <attributeDefinition>Are you entering data for multiple stations in this lake ('Yes' or 'No')</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>no</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>yes</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765731" scope="document"> <attributeName>startday</attributeName>
+ <attributeDefinition>Calculated aggregate begins on this date - Day ('##')</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalDay</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765746" scope="document"> <attributeName>startmonth</attributeName>
+ <attributeDefinition>Calculated aggregate begins on this date - Month (1st 3 letters of month in English; e.g., 'Dec')</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>Calculated aggregate begins on this date - Month (1st 3 letters of month in English; e.g., 'Dec')</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765762" scope="document"> <attributeName>startyear</attributeName>
+ <attributeDefinition>Calculated aggregate begins on this date - Year ('####')</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765778" scope="document"> <attributeName>endday</attributeName>
+ <attributeDefinition>Calculated aggregate ends on this date - DAY ('##')</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalDay</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765793" scope="document"> <attributeName>endmonth</attributeName>
+ <attributeDefinition>Calculated aggregate ends on this date - Month (1st 3 letters of month in English; e.g., 'Dec')</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>Calculated aggregate ends on this date - Month (1st 3 letters of month in English; e.g., 'Dec')</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765809" scope="document"> <attributeName>endyear</attributeName>
+ <attributeDefinition>Calculated aggregate ends on this date - Year ('####')</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765824" scope="document"> <attributeName>iceduration</attributeName>
+ <attributeDefinition>Length of ice cover at station on lake in days (real number, may differ from aggregation period)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalDay</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765840" scope="document"> <attributeName>periodn</attributeName>
+ <attributeDefinition>Number of 'samples' contributing to the calculated seasonal aggregate (real number)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Number of 'samples' contributing to the calculated seasonal aggregate (real number)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765856" scope="document"> <attributeName>samplenarrat</attributeName>
+ <attributeDefinition>Brief narrative describing anything we should know about the sampling protocol or number of samples</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Brief narrative describing anything we should know about the sampling protocol or number of samples</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765871" scope="document"> <attributeName>sampletype</attributeName>
+ <attributeDefinition>Type of sample data ['in situ' (includes manual and autonomously collected), OR 'remote sensed']</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>in situ</code>
+ <definition>in situ</definition>
+ </codeDefinition>
+ <codeDefinition> <code>intake</code>
+ <definition>intake</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765887" scope="document"> <attributeName>photicdepth</attributeName>
+ <attributeDefinition>Depth of photic zone (m)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765903" scope="document"> <attributeName>sampledepth</attributeName>
+ <attributeDefinition>Maximum depth normally sampled (m)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765918" scope="document"> <attributeName>icedepth</attributeName>
+ <attributeDefinition>Average surface ice thickness (cm; 'NA' for didn't measure, 0 if no ice)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765934" scope="document"> <attributeName>snowdepth</attributeName>
+ <attributeDefinition>Average snow depth on ice (cm; 0 for no snow, including summer OR, 'NA' if not measured)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765949" scope="document"> <attributeName>icenarrat</attributeName>
+ <attributeDefinition>Brief narrative describing other ice-specific variables collected</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Brief narrative describing other ice-specific variables collected</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765965" scope="document"> <attributeName>sidata</attributeName>
+ <attributeDefinition>Is there stable isotope data associated with aggregate? (‘no’ OR, if yes: 'delC','delN','delS', etc.)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Is there stable isotope data associated with aggregate? (‘no’ OR, if yes: 'delC','delN','delS', etc.)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765981" scope="document"> <attributeName>fadata</attributeName>
+ <attributeDefinition>Is there fatty acid data associated with aggregate? ('no' OR, if yes: 'proportional' or 'concentrations')</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Is there fatty acid data associated with aggregate? ('no' OR, if yes: 'proportional' or 'concentrations')</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361765996" scope="document"> <attributeName>gutdata</attributeName>
+ <attributeDefinition>Is there consumer gut content data associated with sample period? (‘yes’ or 'no')</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>no</code>
+ <definition>no</definition>
+ </codeDefinition>
+ <codeDefinition> <code>yes</code>
+ <definition>yes</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766012" scope="document"> <attributeName>foodwebnarrat</attributeName>
+ <attributeDefinition>Brief narrative describing food web/biomarker/gut content data, and organisms</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Brief narrative describing food web/biomarker/gut content data, and organisms</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766028" scope="document"> <attributeName>watertemp</attributeName>
+ <attributeDefinition>Average water temperature (deg C) at sample station during depth/date range of aggregate</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766043" scope="document"> <attributeName>airtemp</attributeName>
+ <attributeDefinition>Average air temp (deg C) at sample station during date range of aggregate</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766059" scope="document"> <attributeName>averadiation</attributeName>
+ <attributeDefinition>Average photosynthetically active radiation (PAR) (µmol photons m^2 s^-1) at surface</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersSquaredPerSecond</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766074" scope="document"> <attributeName>cvradiation</attributeName>
+ <attributeDefinition>Coefficient of variation (CV) of PAR (of aggregate) (stdev / average)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766090" scope="document"> <attributeName>avesecchidepth</attributeName>
+ <attributeDefinition>Secchi depth (m) (of aggregate); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766106" scope="document"> <attributeName>cvsecchidepth</attributeName>
+ <attributeDefinition>Secchi depth (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766121" scope="document"> <attributeName>avetotphos</attributeName>
+ <attributeDefinition>Total P (of aggregate) (µg P L^1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766137" scope="document"> <attributeName>cvtotphos</attributeName>
+ <attributeDefinition>Total P (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766153" scope="document"> <attributeName>maxtotphos</attributeName>
+ <attributeDefinition>Total P (of aggregate) (µg P L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766168" scope="document"> <attributeName>avetotdissphos</attributeName>
+ <attributeDefinition>Total dissolved P (of aggregate) (µg P L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766184" scope="document"> <attributeName>cvtotdissphos</attributeName>
+ <attributeDefinition>Total dissolved P (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766199" scope="document"> <attributeName>maxtotdissphos</attributeName>
+ <attributeDefinition>Total dissolved P (of aggregate) (µg P L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766215" scope="document"> <attributeName>avetotnitro</attributeName>
+ <attributeDefinition>Total N (of aggregate) (µg N L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766231" scope="document"> <attributeName>cvtotnitro</attributeName>
+ <attributeDefinition>Total N (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766246" scope="document"> <attributeName>maxtotnitro</attributeName>
+ <attributeDefinition>Total N (of aggregate) (µg N L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766262" scope="document"> <attributeName>avetotdissnitro</attributeName>
+ <attributeDefinition>Total dissolved N (of aggregate) (µg N L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766278" scope="document"> <attributeName>cvtotdissnitro</attributeName>
+ <attributeDefinition>Total dissolved N (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766293" scope="document"> <attributeName>maxtotdissnitro</attributeName>
+ <attributeDefinition>Total dissolved N (of aggregate) (µg N L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766309" scope="document"> <attributeName>avetotdoc</attributeName>
+ <attributeDefinition>Total dissolved organic C (of aggregate) (mg C L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766324" scope="document"> <attributeName>cvtotdoc</attributeName>
+ <attributeDefinition>Total dissolved organic C (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766340" scope="document"> <attributeName>maxtotdoc</attributeName>
+ <attributeDefinition>Total dissolved organic C (of aggregate) (mg C L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766356" scope="document"> <attributeName>avesuva</attributeName>
+ <attributeDefinition>Specific UV absorbance (of aggregate) (L mg C^-1 m^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766371" scope="document"> <attributeName>cvsuva</attributeName>
+ <attributeDefinition>Specific UV absorbance (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766387" scope="document"> <attributeName>maxsuva</attributeName>
+ <attributeDefinition>Specific UV absorbance (of aggregate) (L mg C^-1 m^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766403" scope="document"> <attributeName>avecolor</attributeName>
+ <attributeDefinition>Water Color - actual (of aggregate), Platinum units (Pt, mg L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766418" scope="document"> <attributeName>cvcolor</attributeName>
+ <attributeDefinition>Water Color - actual (of aggregate), Platinum units (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766434" scope="document"> <attributeName>maxcolor</attributeName>
+ <attributeDefinition>Water Color - actual (of aggregate), Platinum units (Pt, mg L^-1); max</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>milligramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766449" scope="document"> <attributeName>avechla</attributeName>
+ <attributeDefinition>Chlorophyll-a (of aggregate)' (µg L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766465" scope="document"> <attributeName>cvchla</attributeName>
+ <attributeDefinition>Total Chlorophyll-a (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766481" scope="document"> <attributeName>maxchla</attributeName>
+ <attributeDefinition>Chlorophyll-a (of aggregate) (µg L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766496" scope="document"> <attributeName>waterchemnarrat</attributeName>
+ <attributeDefinition>Brief narrative describing water chemistry methods</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Brief narrative describing water chemistry methods</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766512" scope="document"> <attributeName>profiles</attributeName>
+ <attributeDefinition>Would you submit 'raw' water chemistry profile data in a follow up effort? ('yes', 'no', and brief answer)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Would you submit 'raw' water chemistry profile data in a follow up effort? ('yes', 'no', and brief answer)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766528" scope="document"> <attributeName>avephytoppr</attributeName>
+ <attributeDefinition>Phytoplankton primary production (PPR) (of aggregate); average (a rate, but is also a unit free field)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766543" scope="document"> <attributeName>maxphytoppr</attributeName>
+ <attributeDefinition>Phytoplankton primary production (PPR) (of aggregate); maximum (a rate, but is also a unit free field)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766559" scope="document"> <attributeName>phytopprunit</attributeName>
+ <attributeDefinition>Report units for ave and max ppr rates (e.g., µg C L^-1 h^-1 is preferred)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Report units for ave and max ppr rates (e.g., µg C L^-1 h^-1 is preferred)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766574" scope="document"> <attributeName>phytopprnarrat</attributeName>
+ <attributeDefinition>Brief narrative describing the PPR method</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Brief narrative describing the PPR method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766590" scope="document"> <attributeName>phytomethod</attributeName>
+ <attributeDefinition>Brief narrative describing phytoplankton sampling method</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Brief narrative describing phytoplankton sampling method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766606" scope="document"> <attributeName>avephytomass</attributeName>
+ <attributeDefinition>Total phytoplankton biovolume (of aggregate) (mm^3/L); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>BV</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766621" scope="document"> <attributeName>cvphytomass</attributeName>
+ <attributeDefinition>Total phytoplankton biovolume (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766637" scope="document"> <attributeName>maxphytomass</attributeName>
+ <attributeDefinition>Total phytoplankton biovolume (of aggregate) (mm^3/L); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>BV</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766653" scope="document"> <attributeName>avephytocount</attributeName>
+ <attributeDefinition>Total phytoplankton cell count (of aggregate) (number of cells L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766668" scope="document"> <attributeName>cvphytocount</attributeName>
+ <attributeDefinition>Total phytoplankton cell count (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766684" scope="document"> <attributeName>maxphytocount</attributeName>
+ <attributeDefinition>Total phytoplankton cell count (of aggregate) (number of cells L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766700" scope="document"> <attributeName>propchloro</attributeName>
+ <attributeDefinition>Proportion of chlorophytes (proportion of the total phyto count; 1 of 6 categories that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766715" scope="document"> <attributeName>propcrypto</attributeName>
+ <attributeDefinition>Proportion of cryptophytes (proportion of the total phyto count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766731" scope="document"> <attributeName>propcyano</attributeName>
+ <attributeDefinition>Proportion of cyanobacteria (proportion of the total phyto count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766746" scope="document"> <attributeName>propdiatom</attributeName>
+ <attributeDefinition>Proportion of diatoms (proportion of the total phyto count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766762" scope="document"> <attributeName>propdino</attributeName>
+ <attributeDefinition>Proportion of dinoflagellates (proportion of the total phyto count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766778" scope="document"> <attributeName>propotherphyto</attributeName>
+ <attributeDefinition>Proportion of other phytoplankton (proportion of the total phyto count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766793" scope="document"> <attributeName>aveciliamass</attributeName>
+ <attributeDefinition>Total ciliate biovolume (of aggregate) (mm^3/L); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>BV</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766809" scope="document"> <attributeName>cvciliamass</attributeName>
+ <attributeDefinition>Total ciliate biovolume (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766825" scope="document"> <attributeName>maxciliamass</attributeName>
+ <attributeDefinition>Total ciliate biovolume (of aggregate) (mm^3/L); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>BV</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766840" scope="document"> <attributeName>aveciliacount</attributeName>
+ <attributeDefinition>Total ciliate cell count (of aggregate) (number of cells L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766856" scope="document"> <attributeName>cvciliacount</attributeName>
+ <attributeDefinition>Total ciliate cell count (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766871" scope="document"> <attributeName>maxciliacount</attributeName>
+ <attributeDefinition>Total ciliate cell count (of aggregate) (number of cells L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766887" scope="document"> <attributeName>avehnfmass</attributeName>
+ <attributeDefinition>Total heterotrophic nano-flagellate (HNF) biovolume (of aggregate) (mm^3/L); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>BV</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766903" scope="document"> <attributeName>cvhnfmass</attributeName>
+ <attributeDefinition>Total heterotrophic nano-flagellate (HNF) biovolume (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766918" scope="document"> <attributeName>maxhnfmass</attributeName>
+ <attributeDefinition>Total HNF biovolume (of aggregate) (mm^3/L); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>BV</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766934" scope="document"> <attributeName>avehnfcount</attributeName>
+ <attributeDefinition>Total HNF cell count (of aggregate) (number of cells L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766950" scope="document"> <attributeName>cvhnfcount</attributeName>
+ <attributeDefinition>Total HNF cell count (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766965" scope="document"> <attributeName>maxhnfcount</attributeName>
+ <attributeDefinition>Total HNF cell count (of aggregate) (number of cells L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766981" scope="document"> <attributeName>zoopmethod</attributeName>
+ <attributeDefinition>Brief narrative describing zooplankton sampling method</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Brief narrative describing zooplankton sampling method</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361766996" scope="document"> <attributeName>avezoopmass</attributeName>
+ <attributeDefinition>Total zooplankton biomass (of aggregate) (µg dw L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767012" scope="document"> <attributeName>cvzoopmass</attributeName>
+ <attributeDefinition>Total zooplankton biomass (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767028" scope="document"> <attributeName>maxzoopmass</attributeName>
+ <attributeDefinition>Total zooplankton biomass (of aggregate) (µg dw L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>microgramsPerLiter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767043" scope="document"> <attributeName>avezoopcount</attributeName>
+ <attributeDefinition>Total zooplankton count (of aggregate) (number of organisms L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767059" scope="document"> <attributeName>cvzoopcount</attributeName>
+ <attributeDefinition>Total zooplankton count (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767075" scope="document"> <attributeName>maxzoopcount</attributeName>
+ <attributeDefinition>Total zooplankton count (of aggregate) (number of organisms L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767090" scope="document"> <attributeName>propdaphnia</attributeName>
+ <attributeDefinition>Proportion of daphnid cladocerans (proportion of total zoop count; 1 of 6 categories that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767106" scope="document"> <attributeName>propothercladoc</attributeName>
+ <attributeDefinition>Proportion of other cladocerans (proportion of total zoop count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767121" scope="document"> <attributeName>propcyclopoid</attributeName>
+ <attributeDefinition>Proportion of cyclopoids (proportion of total zoop count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767137" scope="document"> <attributeName>propcalanoid</attributeName>
+ <attributeDefinition>Proportion of calanoid copepods (proportion of total zoop count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767153" scope="document"> <attributeName>proprotifer</attributeName>
+ <attributeDefinition>Proportion of rotifers (proportion of total zoop count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767168" scope="document"> <attributeName>propotherzoop</attributeName>
+ <attributeDefinition>Proportion of other zooplankton (proportion of total zoop count; 1 of 6 that sum to 1)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767184" scope="document"> <attributeName>avebactcount</attributeName>
+ <attributeDefinition>Total bacterioplankton cell count (of aggregate) (number of cells L^-1); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767200" scope="document"> <attributeName>cvbactcount</attributeName>
+ <attributeDefinition>Total bacterioplankton cell count (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767215" scope="document"> <attributeName>maxbactcount</attributeName>
+ <attributeDefinition>Total bacterioplankton cell count (of aggregate) (number of cells L^-1); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Counts</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767231" scope="document"> <attributeName>avebactprod</attributeName>
+ <attributeDefinition>Bacterioplankton production (BPP) (of aggregate); average (a rate, but is also a unit free field)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767246" scope="document"> <attributeName>cvbactprod</attributeName>
+ <attributeDefinition>Bacterioplankton production (BPP) (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767262" scope="document"> <attributeName>maxbactprod</attributeName>
+ <attributeDefinition>Bacterioplankton production (BPP) (of aggregate); maximum (a rate, but is also a unit free field)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767278" scope="document"> <attributeName>bactprodunit</attributeName>
+ <attributeDefinition>Report units for ave and max BPP rates (µg C L^-1 h^-1 is preferred)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Report units for ave and max BPP rates (µg C L^-1 h^-1 is preferred)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767293" scope="document"> <attributeName>bactprodmethod</attributeName>
+ <attributeDefinition>Method used to infer BPP (e.g., incorporation of 3H-Leucine, 14C-Leucine, 3H-Thymidine with reference)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Method used to infer BPP (e.g., incorporation of 3H-Leucine, 14C-Leucine, 3H-Thymidine with reference)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767309" scope="document"> <attributeName>bactcompnarrat</attributeName>
+ <attributeDefinition>Brief narrative describing other composition data; e.g., DNA inferred bacterial community composition</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Brief narrative describing other composition data; e.g., DNA inferred bacterial community composition</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767325" scope="document"> <attributeName>bensubstrate</attributeName>
+ <attributeDefinition>Substrate type at benthic  station; 1 of 5 categories (organic, silt, sand, rock, mixed)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>NA</code>
+ <definition>NA</definition>
+ </codeDefinition>
+ <codeDefinition> <code>mixed</code>
+ <definition>mixed</definition>
+ </codeDefinition>
+ <codeDefinition> <code>organic</code>
+ <definition>organic</definition>
+ </codeDefinition>
+ <codeDefinition> <code>silt</code>
+ <definition>silt</definition>
+ </codeDefinition>
+ <codeDefinition> <code>sand</code>
+ <definition>sand</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767340" scope="document"> <attributeName>avebenalgalmass</attributeName>
+ <attributeDefinition>Total benthic algal biomass (of aggregate) (µg dw per cm^2 substrate); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>ug/cm2</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767356" scope="document"> <attributeName>cvbenalgalmass</attributeName>
+ <attributeDefinition>Total benthic algal biomass (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767371" scope="document"> <attributeName>maxbenalgalmass</attributeName>
+ <attributeDefinition>Total benthic algal biomass (of aggregate) (µg dw per cm^2 substrate); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>ug/cm2</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767387" scope="document"> <attributeName>avebenchla</attributeName>
+ <attributeDefinition>Total benthic Chl-a (of aggregate) (µg per cm^2 substrate); average</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>ug/cm2</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767403" scope="document"> <attributeName>cvbenchla</attributeName>
+ <attributeDefinition>Total benthic Chl-a (of aggregate) (stdev / average); CV</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767418" scope="document"> <attributeName>maxbenchla</attributeName>
+ <attributeDefinition>Total benthic Chl-a (of aggregate) (µg per cm^2 substrate); maximum</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>ug/cm2</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767434" scope="document"> <attributeName>macrophytemass</attributeName>
+ <attributeDefinition>Total benthic macrophyte biomass (g dw m^2) (including vascular plants and bryophytes)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>gramsPerSquareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767450" scope="document"> <attributeName>benamphdens</attributeName>
+ <attributeDefinition>Amphipoda density (ind. m^2)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>numberPerMeterSquared</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767465" scope="document"> <attributeName>bengastrodens</attributeName>
+ <attributeDefinition>Gastropoda density (ind. m^2)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>numberPerMeterSquared</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767481" scope="document"> <attributeName>benbivalvedens</attributeName>
+ <attributeDefinition>Bivalvia density (ind. m^2)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>numberPerMeterSquared</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767496" scope="document"> <attributeName>beninsectdens</attributeName>
+ <attributeDefinition>Insecta density (ind. m^2)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>numberPerMeterSquared</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767512" scope="document"> <attributeName>benoligodens</attributeName>
+ <attributeDefinition>Oligochaeta density (ind. m^2)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>numberPerMeterSquared</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1480361767528" scope="document"> <attributeName>fishnarrat</attributeName>
+ <attributeDefinition>Narrative describing potentially relevant fish data</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Narrative describing potentially relevant fish data</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2500</numberOfRecords>
+ </dataTable>
+ <otherEntity><entityName>data_aggregation_instructions_S1</entityName>
+ <entityDescription>Data aggregation instructions provided to data contributors.</entityDescription>
+ <physical><objectName>Doc_S1_instructions.pdf</objectName>
+ <size unit="byte">819156</size>
+ <dataFormat><externallyDefinedFormat><formatName>application/pdf</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1480460893485"><online><url function="download">ecogrid://knb/SGL.9.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="BV" multiplierToSI="1000000" name="BV" parentSI="cubicCentimetersPerCubicCentimeters" unitType="volumePerVolume"> <description>BV</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="Counts" multiplierToSI="0.001" name="Counts" parentSI="numberPerMeterCubed" unitType="volumetricDensity"> <description>Counts</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="ug/cm2" multiplierToSI="1000000" name="ug/cm2" parentSI="kilogramsPerSquareMeter" unitType="arealMassDensity"> <description>ug/cm2</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>
