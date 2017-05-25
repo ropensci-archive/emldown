@@ -64,11 +64,7 @@
 			</tr>		
           </table>
 
-		<xsl:if test="$insertTemplate='1'">
-			<script language="JavaScript" type="text/JavaScript">
-                 insertTemplateClosing('<xsl:value-of select="$contextURL" />');
-			</script>
-		</xsl:if>
+
         </div>
       </body>
     </html>
