@@ -50,6 +50,8 @@
       <body>
 
         <div class="container">
+        
+        <h1><xsl:value-of select="//title"/></h1>
 
         <xsl:for-each select="//creator">
         <br/>
