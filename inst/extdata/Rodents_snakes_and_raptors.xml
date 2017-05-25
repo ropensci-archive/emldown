@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="doi:10.5063/F1NG4NK5" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+<!-- Person who filled in the catalog entry form:   -->
+<!-- Form filled out at Wed May 24 05:52:03 2017 GMT -->
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Rodents, snakes, and raptors</title>
+<creator id="2876055577827988">
+<individualName>
+<givenName>Kristina</givenName>
+<surName>Wolf</surName>
+</individualName>
+<organizationName>H.T. Harvey &amp; Associates</organizationName>
+<positionName>Sr. Ecologist II</positionName>
+<address><deliveryPoint>1331 Garden Highway</deliveryPoint>
+<city>Sacramento</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>95833</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">916-779-7350</phone>
+<electronicMailAddress>kwolf@harveyecology.com</electronicMailAddress>
+<onlineUrl>www.KristinaMWolf.com</onlineUrl>
+</creator>
+<creator id="5758171486878518">
+<individualName>
+<givenName>Matthew</givenName>
+<surName>Whalen</surName>
+</individualName>
+<organizationName>U.C. Davis</organizationName>
+<positionName>Graduate Student</positionName>
+<address><deliveryPoint>1 Shields Avenue</deliveryPoint>
+<city>Davis</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>95616</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>mawhal@gmail.com</electronicMailAddress>
+<onlineUrl>https://mattwhalen.wordpress.com/</onlineUrl>
+</creator>
+<creator id="5139262071300270">
+<individualName>
+<givenName>Ryan</givenName>
+<surName>Bourbour</surName>
+</individualName>
+<organizationName>U.C. Davis</organizationName>
+<positionName>Graduate Student</positionName>
+<address><deliveryPoint>1 Shields Avenue</deliveryPoint>
+<city>Davis</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>95616</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>rpbourbour@ucdavis.edu</electronicMailAddress>
+</creator>
+<creator id="9463883042095120">
+<individualName>
+<givenName>Roger</givenName>
+<surName>Baldwin</surName>
+</individualName>
+<organizationName>U.C. Davis</organizationName>
+<positionName>Cooperative Extension</positionName>
+<address><deliveryPoint>1 Shields Avenue</deliveryPoint>
+<city>Davis</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>95616</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>rabaldwin@ucdavis.edu</electronicMailAddress>
+</creator>
+<metadataProvider id="9893328976790770">
+<individualName>
+<givenName>Kristina</givenName>
+<surName>Wolf</surName>
+</individualName>
+<organizationName>H.T. Harvey &amp; Associates</organizationName>
+<positionName>Sr. Ecologist II</positionName>
+<address><deliveryPoint>1331 Garden Highway</deliveryPoint>
+<city>Sacramento</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>95833</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">(916) 779-7350</phone>
+<electronicMailAddress>kwolf@harveyecology.com</electronicMailAddress>
+<onlineUrl>www.KristinaMWolf.com</onlineUrl>
+</metadataProvider>
+<pubDate>2017-05-23</pubDate>
+<abstract>
+<para>Data were collected every season from spring 2014 through summer 2015 for rodents, snakes, and raptors utilizing paired restored and unrestored grasslands at four locations in Yolo and Sacramento counties in the Central Valley, California, USA. We monitored rodents with live trapping (mark-recapture), and snakes under coverboards over 30-day periods in the first three seasons, and over a two-month period in the final season (due to logistical constraints): Apr (Spring 2014), Jul (Summer 2014), Nov (Autumn 2014), and Feb/Mar (Winter 2015). We monitored raptors over 30-day periods in three seasons: Jul (Summer 2014), Nov (Autumn 2014), and Jul (Summer 2015). We sampled in up to four seasons to elucidate seasonal changes in physical vegetation structure and wildlife responses, and to compare wildlife utilization of restored and unrestored grasslands. </para>
+</abstract>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2014-01-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2015-07-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Sacramento and Yolo Counties, California, USA</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-121.4667</westBoundingCoordinate>
+<eastBoundingCoordinate>-121.4667</eastBoundingCoordinate>
+<northBoundingCoordinate>38.4331</northBoundingCoordinate>
+<southBoundingCoordinate>38.4331</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<generalTaxonomicCoverage>Jameson, E.W., Peeters, H.J., 2004. Mammals of California. Univ of California Press, Oakland, CA; Stebbins, R.C., 2003. A field guide to western reptiles and amphibians. Houghton Mifflin Harcourt, Boston, MA; Clark, W.S., Wheeler, B.K., 2001. A field guide to hawks of North America. Vol. 35. Houghton Mifflin Harcourt, Boston, MA; Baldwin, B.G., Goldman, D.H., 2012. The Jepson manual: vascular plants of California. Univ of California Press, Berkeley, CA.</generalTaxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Peromyscus maniculatus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Mus musculus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Reithrodontomys megalotis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Microtus californicus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Pitouphis catenifer catenifer</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Lampropeltis californiae</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Diadophis punctatus amabilis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Coluber constrictor mormon</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Accipiter cooperii</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Accipiter striatus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Aquila chrysaetos</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Buteo jamaicensis</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Buteo swainsoni</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Circus cyaneus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Elanus leucerus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Falco columbarius</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Falco sparverius</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Plant Guild</taxonRankName>
+  <taxonRankValue>native perennial grasses</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Plant Guild</taxonRankName>
+  <taxonRankValue>native perennial forbs</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Plant Guild</taxonRankName>
+  <taxonRankValue>native annual forbs</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Plant Guild</taxonRankName>
+  <taxonRankValue>non-native annual grasses</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Plant Guild</taxonRankName>
+  <taxonRankValue>non-native annual forbs</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Plant Guild</taxonRankName>
+  <taxonRankValue>non-native perennial forbs</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Plant Guild</taxonRankName>
+  <taxonRankValue>non-native perennial grasses</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact id="7063009555885813">
+<individualName>
+<givenName>Matthew</givenName>
+<surName>Whalen</surName>
+</individualName>
+<organizationName>U.C. Davis</organizationName>
+<positionName>Graduate Student</positionName>
+<address><deliveryPoint>1 Shields Avenue</deliveryPoint>
+<city>Davis</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>95616</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>mawhal@gmail.com</electronicMailAddress>
+<onlineUrl>https://mattwhalen.wordpress.com/</onlineUrl>
+</contact>
+<methods><methodStep><description><section>
+<title>Wildlife Monitoring</title>
+<para>Vegetation: We monitored vegetation along rodent transects immediately prior to trapping each season in 0.5-m2 quadrats placed immediately adjacent to each rodent trap. We visually estimated percent cover of bare ground, litter, native and exotic grasses, and native and exotic forbs for a total of 100% per quadrat following Werner et al. (2016). For annual plants, we counted only live tissues; for perennial grasses we recorded all cover, including dormant tissues. Litter was comprised of desiccated annual grasses and forbs. We visually estimated plant canopy height using a visual obstruction method, in which we placed a meter stick approximately 1 m from the observer; the observer recorded visual obstruction of the meter stick from a height of 1 m from the soil surface (sensu Holechek 2011). </para>
+<para>Rodents: We conducted live trapping to monitor rodent populations each season. We baited live traps (8.9-cmÃ&#151;7.6-cmÃ&#151;22.9-cm; H.B. Sherman Traps, Florida, USA) with oats and peanut butter at dusk and checked them at dawn to reduce stress and minimize exposure to extreme temperatures. We sexed, weighed, and identified individuals to species by inspecting teeth and markings, and eartagged with a small self-piercing tag (Nietfeld, Barrett &amp; Silvy 1994). 
+Due to unavoidable cattle interference at B4 in Spring 2014, we trapped in only three blocks; we trapped in all four blocks in the subsequent three seasons. Unplanned sheep grazing occurred at B3 during the first few days of trapping in Summer 2014; sheep were removed on day four of trapping, and returned again for several weeks after we completed trapping for the season. We continued trapping during grazing, but did not include these data in final rodent abundance analyses due to potential changes in rodent detection probability. However, we did utilize these data to provide insight into potentially correlated rodent responses to rapid changes in vegetative cover. Collectively, we operated traps for seven trap nights for the first three seasons and five trap nights for the final season. </para>
+<para>Snakes: We surveyed coverboards for snake activity across all blocks in the mornings up to eight times per block, treatment, and season, identifying snakes to species. A total of 48 coverboards were located in each block (two boards per point, three points per transect, four transects per treatment, and two treatments per block), with 3,216 coverboard surveys recorded over the course of the study.</para>
+<para>Raptors: We monitored diurnal raptor activity using an all-animal sampling approach where we recorded individual raptors within the treatment boundaries (Gaibani and Csermely, 2007). We conducted surveys for one hour per treatment for a period of five days in Summer 2014 and Autumn 2014. In Summer 2015, we conducted surveys for 1.5 hours per treatment for a period of seven days. Captive falconry exercises interfered with raptor surveys at B3 in Summer 2014, and these data were omitted.
+We assigned at least two observers to each raptor survey; they used 10Ã&#151;42 binoculars, and utilized natural cover of trees and shrubs when possible. Surveys began approximately 30 minutes after sunrise, and were not conducted during high wind or heavy rainfall, although they occurred on sequential days when possible. We recorded species, time spent within the treatment area, number of attacks (an aggressive stoop where the bird made contact with the ground), and the result of each attack (considered successful if prey was observed in talons or feeding was recorded). </para>
+<para>IACUC: All aspects of animal handling and monitoring were approved by the University of California, Davisâ&#128;&#153;s Institutional Animal Care and Use Committee (protocol no. 18026).</para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>We chose four locations (i.e., â&#128;&#156;blocksâ&#128;&#157;) in the Central Valley of California, United States, that contained paired unrestored (UR) exotic annual and restored (R) native perennial grassland fields (hereafter â&#128;&#156;treatmentsâ&#128;&#157;), with each treatment being at least seven hectares (ha) and having similar soil types, topography, land-use history, and management within each block. Paired treatments were nested within each block and had similar historical livestock grazing regimes. Owners generally removed livestock (if any) at least 30 days prior to monitoring periods. We sampled in up to four seasons to elucidate seasonal changes in physical vegetation structure and wildlife responses (Barbour, Keeler-Wolf &amp; Schoenherr 2007). We monitored rodents and snakes over 30-day periods in the first three seasons, and over a two-month period in the final season (due to logistical constraints): Apr (Spring 2014), Jul (Summer 2014), Nov (Autumn 2014), and Feb/Mar (Winter 2015). Due to limited availability of raptor experts, we monitored raptors over 30-day periods in only three seasons: Jul (Summer 2014), Nov (Autumn 2014), and Jul (Summer 2015). </para>
+</description></studyExtent>
+<samplingDescription>
+<para>We established four 150-m transects within each treatment to monitor vegetation and rodents, with transects running parallel to each other and separated by at least 50-m. Rodent traps were placed along transects at approximately 15-m intervals to yield 11 traps per transect. We placed 0.61-mÃ&#151;1.22-m sheets of untreated CDX plywood and galvanized corrugated metal (hereafter, â&#128;&#156;coverboardsâ&#128;&#157;) on the ground to monitor snake populations; the two materials provided different structures, and different species may prefer different materials (Grant et al. 1992). Three coverboard points were located at 75-m intervals along a separate transect running parallel to and approximately 5-m from each rodent transect, with an adjacent pair of coverboards (one of each material) at each point, for a total of 198 coverboards. We installed coverboards in Jan 2014 to allow wildlife to become accustomed to them prior to initial monitoring the following Spring. Trapping and survey order were randomly assigned to treatments and blocks each season, subject to logistical constraints. </para>
+</samplingDescription>
+</sampling>
+</methods>
+<otherEntity id="3ef801109d4c610423d719c85c5df9a2b447259f001" scope="document">
+            <entityName>7. Herp Species x Day_All Locations.csv</entityName>
+            <physical scope="document">
+                <objectName>7. Herp Species x Day_All Locations.csv</objectName>
+                <size>247447</size>
+                <authentication method="SHA1">3ef801109d4c610423d719c85c5df9a2b447259f</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="3ef801109d4c610423d719c85c5df9a2b447259f002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1342.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="99e396f1e74f8902a859986d4ac47ade888fb4c2001" scope="document">
+            <entityName>8. Total Snakes x Season_All Locations.csv</entityName>
+            <physical scope="document">
+                <objectName>8. Total Snakes x Season_All Locations.csv</objectName>
+                <size>1494</size>
+                <authentication method="SHA1">99e396f1e74f8902a859986d4ac47ade888fb4c2</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="99e396f1e74f8902a859986d4ac47ade888fb4c2002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1343.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="aed9838122986b126c9a5227a55e4adf1597bb41001" scope="document">
+            <entityName>1. Rodent Captures by Transect_long_Location 3.csv</entityName>
+            <physical scope="document">
+                <objectName>1. Rodent Captures by Transect_long_Location 3.csv</objectName>
+                <size>66276</size>
+                <authentication method="SHA1">aed9838122986b126c9a5227a55e4adf1597bb41</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="aed9838122986b126c9a5227a55e4adf1597bb41002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1336.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="473de7c61ef18640230c166554abd237cec7deb5001" scope="document">
+            <entityName>9. Raptor Observations_All Seasons and Locations.csv</entityName>
+            <physical scope="document">
+                <objectName>9. Raptor Observations_All Seasons and Locations.csv</objectName>
+                <size>110867</size>
+                <authentication method="SHA1">473de7c61ef18640230c166554abd237cec7deb5</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="473de7c61ef18640230c166554abd237cec7deb5002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1344.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="f57d623ee220b71ecac261da6fa15b11bfaf8b99001" scope="document">
+            <entityName>2. Rodent Captures Total by Species and Season_Location 3.csv</entityName>
+            <physical scope="document">
+                <objectName>2. Rodent Captures Total by Species and Season_Location 3.csv</objectName>
+                <size>351</size>
+                <authentication method="SHA1">f57d623ee220b71ecac261da6fa15b11bfaf8b99</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="f57d623ee220b71ecac261da6fa15b11bfaf8b99002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1337.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="3bed947d7150826847fcbaf6f2e40a91ddaee950001" scope="document">
+            <entityName>4. Rodent Captures by Day, with Vegetation Day_All Locations.csv</entityName>
+            <physical scope="document">
+                <objectName>4. Rodent Captures by Day, with Vegetation Day_All Locations.csv</objectName>
+                <size>1020855</size>
+                <authentication method="SHA1">3bed947d7150826847fcbaf6f2e40a91ddaee950</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="3bed947d7150826847fcbaf6f2e40a91ddaee950002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1339.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="0ddfbf03691b490b97344a48906c1d7c60a7084c001" scope="document">
+            <entityName>5. Veg Cover by Season_wide_All Locations.csv</entityName>
+            <physical scope="document">
+                <objectName>5. Veg Cover by Season_wide_All Locations.csv</objectName>
+                <size>120588</size>
+                <authentication method="SHA1">0ddfbf03691b490b97344a48906c1d7c60a7084c</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="0ddfbf03691b490b97344a48906c1d7c60a7084c002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1340.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="d2f2ffdda2341fda1f0d462c29e5bf332b3f063e001" scope="document">
+            <entityName>3. Rodent Captures by Vegetation, All Locations.csv</entityName>
+            <physical scope="document">
+                <objectName>3. Rodent Captures by Vegetation, All Locations.csv</objectName>
+                <size>99980</size>
+                <authentication method="SHA1">d2f2ffdda2341fda1f0d462c29e5bf332b3f063e</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="d2f2ffdda2341fda1f0d462c29e5bf332b3f063e002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1338.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="ce1e4b1adf26093dff35e2d38bc06bdf81b87876001" scope="document">
+            <entityName>6. Veg Cover by Season_long, All Locations.csv</entityName>
+            <physical scope="document">
+                <objectName>6. Veg Cover by Season_long, All Locations.csv</objectName>
+                <size>653375</size>
+                <authentication method="SHA1">ce1e4b1adf26093dff35e2d38bc06bdf81b87876</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="ce1e4b1adf26093dff35e2d38bc06bdf81b87876002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1341.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0001-6239-7822</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</eml:eml>
