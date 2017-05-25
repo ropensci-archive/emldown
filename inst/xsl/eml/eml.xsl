@@ -52,6 +52,18 @@
         <div class="container">
         
         <h1><xsl:value-of select="//title"/></h1>
+        
+        <h3>Metadata provided by:</h3>
+        <br/>
+        <xsl:for-each select="//metadataProvider">
+        <br/>
+        
+        <h3>Metadata provided by:</h3>
+        Name: <xsl:value-of select=".//individualName/givenName"/> 
+          <xsl:text> </xsl:text><xsl:value-of select=".//individualName/surName"/>
+        </xsl:for-each>
+        
+        <br/>
 
         <xsl:for-each select="//creator">
         <br/>
@@ -68,8 +80,8 @@
         Other entity: <xsl:value-of select=".//entityName"/> 
         </xsl:for-each>
 
-				<xsl:apply-templates select="*[local-name()='eml']"/> 
-	
+				<xsl:apply-templates select="*[local-name()='eml']"/>
+
 
         </div>
       </body>
