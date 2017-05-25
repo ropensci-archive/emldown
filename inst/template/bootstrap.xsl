@@ -10,12 +10,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:call-template name="head"/>
   <body>
   <xsl:call-template name="nav"/>
-
-    
-
     <div class="container">
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
+        
+        <h1><xsl:value-of select="//dataset/title" /></h1>
+        
+        
         <p class="lead">Use this document as a way to quickly start any new project.
         All you get is this text and a mostly barebones HTML document.</p>
       </div>
