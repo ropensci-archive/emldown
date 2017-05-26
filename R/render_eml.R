@@ -19,17 +19,16 @@ render_eml <- function(file, open = TRUE, outfile = "test.html",
   style <- xml2::read_xml(system.file("template", "bootstrap.xsl",
                                       package = "emldown"))
   html <- xslt::xml_xslt(eml, style)
+  # make map
+  map_geographical_coverage(eml)
   xml2::write_html(html, outfile)
+  # add custom css
+  write_custom_css(publish_mode)
+  
   if (open == TRUE) {
     browseURL(outfile)
   }
-  # make map
-  print("coucou")
-  map_geographical_coverage(eml)
-  print("coucou")
-  
-  # add custom css
-  write_custom_css(publish_mode)
+
 }
 
 
