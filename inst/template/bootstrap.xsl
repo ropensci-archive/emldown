@@ -6,6 +6,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="nav.xsl"/>
 <xsl:include href="temporal_coverage.xsl"/> 
 <xsl:include href="geographic_coverage.xsl"/>
+<xsl:include href="taxonomic_coverage.xsl"/>
 <xsl:include href="dataset.xsl"/>
 <xsl:include href="datatable.xsl"/>
 <xsl:include href="units.xsl"/>
@@ -45,9 +46,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <xsl:call-template name="geographic_coverage"/>
 -->
     </div><!-- /.container -->
-    
+
+    <div class="container" id="taxonomic">
+      <h3>
+<span class="glyphicon glyphicon-tree-deciduous"></span>
+Taxonomic coverage</h3>
+      <xsl:call-template name="taxonomic_coverage"/>
+  </div><!-- /.container -->
+  
      <div class="container" id="datatable">
-     <h3>
+         <h3>   
 <span class="glyphicon glyphicon-list-alt"></span>
  Data tables</h3>
       <xsl:call-template name="datatable"/>
