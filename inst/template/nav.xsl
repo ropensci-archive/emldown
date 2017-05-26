@@ -19,6 +19,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#geographic">Geographic coverage</a></li>
+            <li><a href="#datatable">Data tables</a></li>
+            <li><a href="#otherentity">Other entities</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
