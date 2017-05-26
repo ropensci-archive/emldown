@@ -9,7 +9,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <td><xsl:value-of select="entityName"/></td>
       <td>, <xsl:value-of select="numberOfRecords"/> records</td></h4>
     </tr>
-    <table class="table">
+    <div class="table-responsive">
+<table class="table table-striped">
       <tr>
         <th>attribute name</th>
         <th>definition</th>
@@ -21,6 +22,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </tr>
       </xsl:for-each>
     </table>
+    </div>
     </xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>
