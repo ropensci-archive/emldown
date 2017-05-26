@@ -6,10 +6,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
    <footer>
      <div class="copyright">
-       created with <a href="https://github.com/ropenscilabs/emldown">emldown</a>
+      <p>Development supported by <a href='https://ropensci.org/'><img src='http://unconf17.ropensci.org/images/ropensci_small.png' height='35' /></a></p>
+     </div>
       
-      <p>Developed by <a href='https://ropensci.org/'>rOpenSci</a></p>
-      <img src='http://unconf17.ropensci.org/images/ropensci_small.png' height='35' />
+      <div class ="madeby">
+        created with <a href="https://github.com/ropenscilabs/emldown">emldown</a>
+       
+      
      </div>
    </footer>
    

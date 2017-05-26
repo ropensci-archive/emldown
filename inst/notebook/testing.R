@@ -19,3 +19,12 @@ style <- xml2::read_xml("../template/bootstrap.xsl")
 html <- xslt::xml_xslt(eml, style)
 xml2::write_html(html, "test.html")
 browseURL("test.html")
+
+
+# using the package itself ------------------------------------------------
+
+library(emldown)
+render_eml("inst/extdata/hampton_underice.xml", publish_mode = TRUE)
+render_eml("inst/extdata/Lake_Baikal_Plankton.xml", publish_mode = TRUE)
+render_eml("inst/extdata/hampton_underice.xml", publish_mode = TRUE)
+write_custom_css
