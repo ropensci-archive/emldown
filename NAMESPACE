@@ -2,3 +2,4 @@
 
 export(eml_transform)
 export(render_eml)
+importFrom(leaflet,"%>%")

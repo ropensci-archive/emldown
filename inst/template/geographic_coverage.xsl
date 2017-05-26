@@ -3,7 +3,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template name="geographic_coverage" match="/">
-
+ <div w3-include-html="map.html"></div> 
         <div class="row">        
             <xsl:for-each select="//dataset/coverage/geographicCoverage">
                 <div class="col-sm-3">

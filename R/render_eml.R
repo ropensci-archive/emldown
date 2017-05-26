@@ -23,6 +23,10 @@ render_eml <- function(file, open = TRUE, outfile = "test.html",
   if (open == TRUE) {
     browseURL(outfile)
   }
+  # make map
+  print("coucou")
+  map_geographical_coverage(eml)
+  print("coucou")
   
   # add custom css
   write_custom_css(publish_mode)
