@@ -9,8 +9,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <td><xsl:value-of select="entityName"/></td>
       <td>, <xsl:value-of select="numberOfRecords"/> records</td></h4>
     </tr>
-    <table border="1">
-      <tr bgcolor="#9acd32">
+    <table class="table">
+      <tr>
         <th>attribute name</th>
         <th>definition</th>
       </tr>
