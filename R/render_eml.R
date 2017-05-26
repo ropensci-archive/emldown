@@ -4,12 +4,14 @@
 ##' the dataset.
 ##' 
 ##' @title Render EML
-##' @param file 
+##' @param file A valid Ecological Metadata Language file to be rendered to html.
 ##' @param open Whether to open the file in a browser. Defaults to TRUE.
 ##' @param outfile Name of output file.
 ##' @return HTML file containing dataset information
 ##' @author Kara Woo
 ##' @export
+##' @examples 
+##' render_eml(system.file("extdata", "Rodents_snakes_and_raptors.xml", package = "emldown"))
 render_eml <- function(file, open = TRUE, outfile = "test.html") {
   eml <- xml2::read_xml(file)
   style <- xml2::read_xml(system.file("template", "bootstrap.xsl",

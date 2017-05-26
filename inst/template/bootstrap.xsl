@@ -4,6 +4,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:include href="head.xsl"/> 
 <xsl:include href="nav.xsl"/>
+<xsl:include href="geographic_coverage.xsl"/>
 <xsl:template match="/">
 <html lang="en">
   
@@ -20,8 +21,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         All you get is this text and a mostly barebones HTML document.</p>
       </div>
     </div><!-- /.container -->
-
-
+    
+    <div class="container">
+      <xsl:call-template name="geographic_coverage"/>
+    </div><!-- /.container -->
  
     <!-- Bootstrap core JavaScript
     ================================================== -->
