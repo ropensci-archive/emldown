@@ -4,6 +4,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:include href="head.xsl"/> 
 <xsl:include href="nav.xsl"/>
+<xsl:include href="temporal_coverage.xsl"/> 
 <xsl:include href="geographic_coverage.xsl"/>
 <xsl:include href="dataset.xsl"/>
 <xsl:include href="datatable.xsl"/>
@@ -21,13 +22,21 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <xsl:call-template name="dataset"/>
       </div>
     </div>
+
+<div class="container" id="temporal">
+      <h3>
+<span class="glyphicon glyphicon-time"></span>
+ Temporal coverage</h3>
+      <xsl:call-template name="temporal_coverage"/>
+    </div><!-- /.container -->
+    
     <div class="container" id="geographic">
       <h3>
 <span class="glyphicon glyphicon-globe"></span>
  Geographic coverage</h3>
       <xsl:call-template name="geographic_coverage"/>
     </div><!-- /.container -->
- 
+    
      <div class="container" id="datatable">
      <h3>
 <span class="glyphicon glyphicon-list-alt"></span>
