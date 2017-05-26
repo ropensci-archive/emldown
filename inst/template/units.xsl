@@ -3,8 +3,8 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template name="units" match="/">
-    <table border="1">
-      <tr bgcolor="#9acd32">
+    <table class="table">
+      <tr>
         <th>unit name</th>
         <th>parent SI unit</th>
         <th>unit type</th>
