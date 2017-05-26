@@ -7,6 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="geographic_coverage.xsl"/>
 <xsl:include href="dataset.xsl"/>
 <xsl:include href="datatable.xsl"/>
+<xsl:include href="otherentity.xsl"/>
 <xsl:template match="/">
 <html lang="en">
   
@@ -26,6 +27,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
      <div class="container" id="datatable">
      <h3>Data tables</h3>
       <xsl:call-template name="datatable"/>
+    </div><!-- /.container -->
+    
+ 
+     <div class="container" id="otherentity">
+     <h3>Other entities</h3>
+      <xsl:call-template name="otherentity"/>
     </div><!-- /.container -->
  
     <!-- Bootstrap core JavaScript

@@ -2,8 +2,8 @@
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:template name="datatable" match="/">
-    <xsl:for-each select=".//dataTable">
+<xsl:template name="otherentity" match="/">
+    <xsl:for-each select=".//otherEntity">
     <br/>
     <tr>
       <td><xsl:value-of select="entityName"/></td>
