@@ -32,10 +32,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
    <ul>
      <li><xsl:value-of select="."/></li>
    </ul>
-
   </xsl:for-each>
   </p>
   
+  <h5>Intellectual Rights</h5>
+  <p>
+    <xsl:value-of select="//dataset/intellectualRights" />
+  </p>
   
 </xsl:template>
 </xsl:stylesheet>
