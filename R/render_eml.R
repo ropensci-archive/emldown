@@ -14,7 +14,7 @@
 ##' @examples 
 ##' render_eml(system.file("extdata", "Rodents_snakes_and_raptors.xml", package = "emldown"))
 render_eml <- function(file, open = TRUE, outfile = "test.html",
-                       publish_mode = TRUE) {
+                       publish_mode = TRUE, output_dir = "/docs") {
   eml <- xml2::read_xml(file)
   style <- xml2::read_xml(system.file("template", "bootstrap.xsl",
                                       package = "emldown"))

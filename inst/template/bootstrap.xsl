@@ -12,6 +12,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="otherentity.xsl"/>
 <xsl:include href="footer.xsl"/>
 <xsl:include href="rights.xsl"/>
+<xsl:include href="addmap.xsl"/>
 <xsl:template match="/">
 <html lang="en">
   
@@ -32,10 +33,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </div><!-- /.container -->
     
     <div class="container" id="geographic">
+      
       <h3>
-<span class="glyphicon glyphicon-globe"></span>
- Geographic coverage</h3>
+        <span class="glyphicon glyphicon-globe"></span>
+         Geographic coverage
+      </h3>
+     
+      <xsl:call-template name="addmap"/>
+
+<!--
       <xsl:call-template name="geographic_coverage"/>
+-->
     </div><!-- /.container -->
     
      <div class="container" id="datatable">

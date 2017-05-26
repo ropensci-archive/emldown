@@ -28,5 +28,5 @@ map_geographical_coverage <- function(eml){
       fillColor = "transparent"
     )
   
-  htmlwidgets::saveWidget(map, file = "map.html", selfcontained = TRUE)
+  htmlwidgets::saveWidget(map, file = "map.html", selfcontained = FALSE)
 }

@@ -20,6 +20,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 </div>
 </div>
 
+
+
   <h4>Metadata Provider</h4>
   <p>
   <xsl:value-of select="//metadataProvider/individualName/givenName"/>&#160;
@@ -59,10 +61,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   </xsl:for-each>
   </p>
   
-  <h4>Intellectual Rights</h4>
-  <p>
-    <xsl:value-of select="//dataset/intellectualRights" />
-  </p>
-  
+
 </xsl:template>
 </xsl:stylesheet>
