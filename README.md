@@ -12,3 +12,13 @@ devtools::install_github("ropenscilabs/emldown")
 library("emldown")
 render_eml(system.file("extdata", "hampton_underice.xml", package = "emldown"))
 ```
+
+## Illustration
+
+Raw EML file:
+
+![raw eml](illustrations/screenshot_raw_xml.png)
+
+With `emldown`:
+
+![emldown](illustrations/screenshot_emldown.png)
