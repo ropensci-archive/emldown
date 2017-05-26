@@ -26,3 +26,11 @@ With `emldown`:
 The resulting website is based on [Bootstrap](https://getbootstrap.com/) and has some interactive components:
 
 ![demo1](illustrations/emldown_demo1.gif)
+
+Geographic information turns into a map, made using [leaflet](https://rstudio.github.io/leaflet/):
+
+![demo2](illustrations/emldown_demo2.gif)
+
+Right now, we are able to capture some of the most common parts of Ecological Metadata Language, including the Title, Abstract, Authors, Keywords, Coverage (where in space and time the samples were taken), the Data Tables and Units associated with these.
+
+![demo3](illustrations/emldown_demo3.gif)
