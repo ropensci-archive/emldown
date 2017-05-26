@@ -22,8 +22,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         All you get is this text and a mostly barebones HTML document.</p>
       </div>
     </div><!-- /.container -->
-    
-    <div class="container">
+
+    <div class="container" id="geographic">
+      <h3>Geographic coverage</h3>
       <xsl:call-template name="geographic_coverage"/>
     </div><!-- /.container -->
  
