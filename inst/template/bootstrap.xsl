@@ -21,22 +21,30 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </div>
     </div>
     <div class="container" id="geographic">
-      <h3>Geographic coverage</h3>
+      <h3>
+<span class="glyphicon glyphicon-globe"></span>
+ Geographic coverage</h3>
       <xsl:call-template name="geographic_coverage"/>
     </div><!-- /.container -->
  
      <div class="container" id="datatable">
-     <h3>Data tables</h3>
+     <h3>
+<span class="glyphicon glyphicon-list-alt"></span>
+ Data tables</h3>
       <xsl:call-template name="datatable"/>
     </div><!-- /.container -->
     
     <div class="container" id="units">
-     <h3>Custom units</h3>
+     <h3>
+<span class="glyphicon glyphicon-glass"></span>
+ Custom units</h3>
       <xsl:call-template name="units"/>
     </div><!-- /.container -->
  
      <div class="container" id="otherentity">
-     <h3>Other entities</h3>
+     <h3>
+<span class="glyphicon glyphicon-list-alt"></span>
+ Other entities</h3>
       <xsl:call-template name="otherentity"/>
     </div><!-- /.container -->
  

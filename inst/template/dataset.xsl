@@ -6,8 +6,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <h1><xsl:value-of select="//dataset/title" /></h1>
   <h3><xsl:value-of select="//dataset/pubDate" /></h3>
+  <h2><a href="#datatable">
+  <span class="glyphicon glyphicon-list-alt"></span>
+    Data table(s) <span class="badge"><xsl:value-of select="count(//dataTable)" /></span></a></h2>
+    <h2><a href="#otherentity">
+  <span class="glyphicon glyphicon-list-alt"></span>
+    Other entity(ies) <span class="badge"><xsl:value-of select="count(//otherEntity)" /></span></a></h2>
+  <div class="container">
+  <div class="jumbotron">
   <p class="lead"><xsl:value-of select="//dataset/abstract" /></p>
-
+</div>
+</div>
   <h5>Metadata Provider</h5>
   <p>
   <xsl:value-of select="//metadataProvider/individualName/givenName"/>&#160;
