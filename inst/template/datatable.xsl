@@ -5,10 +5,22 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template name="datatable" match="/">
     <xsl:for-each select=".//dataTable">
     <br/>
-    <tr>
+    <tr><h4>
       <td><xsl:value-of select="entityName"/></td>
-      <td>, <xsl:value-of select="numberOfRecords"/> records</td>
+      <td>, <xsl:value-of select="numberOfRecords"/> records</td></h4>
     </tr>
+    <table border="1">
+      <tr bgcolor="#9acd32">
+        <th>attribute name</th>
+        <th>definition</th>
+      </tr>
+      <xsl:for-each select="attributeList/attribute">
+        <tr>
+          <td><xsl:value-of select="attributeName"/></td>
+          <td><xsl:value-of select="attributeDefinition"/></td>
+        </tr>
+      </xsl:for-each>
+    </table>
     </xsl:for-each>
 </xsl:template>
 </xsl:stylesheet>
