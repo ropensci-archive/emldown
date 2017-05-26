@@ -6,18 +6,18 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <h1><xsl:value-of select="//dataset/title" /></h1>
   <h3><xsl:value-of select="//dataset/pubDate" /></h3>
-  <h2><a href="#datatable">
+  <h4><a href="#datatable">
   <span class="glyphicon glyphicon-list-alt"></span>
-    Data table(s) <span class="badge"><xsl:value-of select="count(//dataTable)" /></span></a></h2>
-    <h2><a href="#otherentity">
+    Data table(s) <span class="badge"><xsl:value-of select="count(//dataTable)" /></span></a></h4>
+    <h4><a href="#otherentity">
   <span class="glyphicon glyphicon-list-alt"></span>
-    Other entity(ies) <span class="badge"><xsl:value-of select="count(//otherEntity)" /></span></a></h2>
+    Other entity(ies) <span class="badge"><xsl:value-of select="count(//otherEntity)" /></span></a></h4>
   <div class="container">
   <div class="jumbotron">
   <p class="lead"><xsl:value-of select="//dataset/abstract" /></p>
 </div>
 </div>
-  <h5>Metadata Provider</h5>
+  <h4>Metadata Provider</h4>
   <p>
   <xsl:value-of select="//metadataProvider/individualName/givenName"/>&#160;
   <xsl:value-of select="//metadataProvider/individualName/surName"/>
@@ -41,13 +41,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
           </li>
         </xsl:for-each>
         </ul>
-        <div class="panel-footer">Footer</div>
       </div>
     </div>
   </div>
   </div>
 
-  <h5>Keywords</h5>
+  <h4>Keywords</h4>
   
   <p>
   <xsl:for-each select="//dataset/keywordSet/keyword">
@@ -57,7 +56,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   </xsl:for-each>
   </p>
   
-  <h5>Intellectual Rights</h5>
+  <h4>Intellectual Rights</h4>
   <p>
     <xsl:value-of select="//dataset/intellectualRights" />
   </p>
