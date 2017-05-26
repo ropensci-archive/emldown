@@ -7,7 +7,7 @@
 render_eml(file, open = TRUE, outfile = "test.html")
 }
 \arguments{
-\item{file}{}
+\item{file}{A valid Ecological Metadata Language file to be rendered to html.}
 
 \item{open}{Whether to open the file in a browser. Defaults to TRUE.}
 
@@ -22,6 +22,9 @@ Render EML metadata into a webpage
 \details{
 Pass in an xml file of EML metadata and generate a nice webpage describing
 the dataset.
+}
+\examples{
+render_eml(system.file("extdata", "Rodents_snakes_and_raptors.xml", package = "emldown"))
 }
 \author{
 Kara Woo
