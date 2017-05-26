@@ -7,6 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <br/>
     <tr>
       <td><xsl:value-of select="entityName"/></td>
+      <td>, <xsl:value-of select="numberOfRecords"/> records</td>
     </tr>
     </xsl:for-each>
 </xsl:template>
