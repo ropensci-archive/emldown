@@ -21,4 +21,13 @@ render_eml <- function(file, open = TRUE, outfile = "test.html") {
   if (open == TRUE) {
     browseURL(outfile)
   }
+  
+  # add custom css
+  write_custom_css()
+}
+
+
+write_custom_css <- function(){
+  custom_css <- 'body { padding-top: 70px; }'
+  writeLines(custom_css, "custom.css")
 }
