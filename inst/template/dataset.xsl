@@ -5,7 +5,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template name="dataset" match="/">
 
   <h1><xsl:value-of select="//dataset/title" /></h1>
-  
+  <h2 href="#">Data table(s) <span class="badge"><xsl:value-of select="count(//dataTable)" /></span></h2>
+  <h2 href="#">Other entity(ies) <span class="badge"><xsl:value-of select="count(//otherEntity)" /></span></h2>
   <p class="lead"><xsl:value-of select="//dataset/abstract" /></p>
 
   <h5>Metadata Provider</h5>
