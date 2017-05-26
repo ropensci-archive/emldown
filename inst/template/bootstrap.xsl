@@ -11,6 +11,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="units.xsl"/>
 <xsl:include href="otherentity.xsl"/>
 <xsl:include href="footer.xsl"/>
+<xsl:include href="rights.xsl"/>
 <xsl:template match="/">
 <html lang="en">
   
@@ -52,11 +53,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </div><!-- /.container -->
  
      <div class="container" id="otherentity">
-     <h3>
-<span class="glyphicon glyphicon-list-alt"></span>
- Other entities</h3>
+       <h3>
+         <span class="glyphicon glyphicon-list-alt"></span>
+          Other entities
+       </h3>
       <xsl:call-template name="otherentity"/>
     </div><!-- /.container -->
+    
+    <div class="container">
+      <xsl:call-template name="rights"/>
+    </div>
  
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -64,6 +70,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
+
   
   <xsl:call-template name="footer"/>
   
