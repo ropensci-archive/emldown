@@ -8,8 +8,11 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   
   <p class="lead"><xsl:value-of select="//dataset/abstract" /></p>
 
-
-  <!-- <h3><xsl:value-of select="//metadataProvider" /></h3> -->
+  <h5>Metadata Provider</h5>
+  <p>
+  <xsl:value-of select="//metadataProvider/individualName/givenName"/>&#160;
+  <xsl:value-of select="//metadataProvider/individualName/surName"/>
+  </p>
   
   
 </xsl:template>
