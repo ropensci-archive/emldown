@@ -5,6 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="head.xsl"/> 
 <xsl:include href="nav.xsl"/>
 <xsl:include href="geographic_coverage.xsl"/>
+<xsl:include href="dataset.xsl"/>
 <xsl:template match="/">
 <html lang="en">
   
@@ -14,11 +15,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <div class="container">
       <div class="starter-template">
         
-        <h1><xsl:value-of select="//dataset/title" /></h1>
+        <xsl:call-template name="dataset"/>
         
-        
-        <p class="lead">Use this document as a way to quickly start any new project.
-        All you get is this text and a mostly barebones HTML document.</p>
       </div>
     </div><!-- /.container -->
     
