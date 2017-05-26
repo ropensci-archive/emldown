@@ -4,7 +4,7 @@
 \alias{render_eml}
 \title{Render EML}
 \usage{
-render_eml(file, open = TRUE, outfile = "test.html")
+render_eml(file, open = TRUE, outfile = "test.html", publish_mode = TRUE)
 }
 \arguments{
 \item{file}{A valid Ecological Metadata Language file to be rendered to html.}
@@ -12,6 +12,8 @@ render_eml(file, open = TRUE, outfile = "test.html")
 \item{open}{Whether to open the file in a browser. Defaults to TRUE.}
 
 \item{outfile}{Name of output file.}
+
+\item{publish_mode}{TRUE. If TRUE the website is pretty without warnings for weird stuff.}
 }
 \value{
 HTML file containing dataset information
