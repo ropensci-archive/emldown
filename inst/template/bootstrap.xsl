@@ -6,22 +6,26 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="nav.xsl"/>
 <xsl:include href="geographic_coverage.xsl"/>
 <xsl:include href="dataset.xsl"/>
+<xsl:include href="datatable.xsl"/>
 <xsl:template match="/">
 <html lang="en">
   
   <xsl:call-template name="head"/>
   <body>
   <xsl:call-template name="nav"/>
-    <div class="container">
+    <div class="container" id="dataset_info">
       <div class="starter-template">
-        
         <xsl:call-template name="dataset"/>
-        
       </div>
-    </div><!-- /.container -->
-    
-    <div class="container">
+    </div>
+    <div class="container" id="geographic">
+      <h3>Geographic coverage</h3>
       <xsl:call-template name="geographic_coverage"/>
+    </div><!-- /.container -->
+ 
+     <div class="container" id="datatable">
+     <h3>Data tables</h3>
+      <xsl:call-template name="datatable"/>
     </div><!-- /.container -->
  
     <!-- Bootstrap core JavaScript
