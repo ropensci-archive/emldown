@@ -1,6 +1,6 @@
 # emldown
 
-emldown is a package for creating a helpful website based on EML metadata.
+*emldown* is a package for creating a helpful website based on EML metadata.
 
 This is a project of
 the [rOpenSci unconference](https://github.com/ropensci/unconf17/issues/28).
@@ -15,11 +15,11 @@ render_eml(system.file("extdata", "hampton_underice.xml", package = "emldown"))
 
 ## Illustration
 
-Raw EML file:
+Raw EML file: :anguished: :weary: :unamused:
 
 ![raw eml](illustrations/screenshot_raw_xml.png)
 
-With `emldown`:
+With `emldown`: :relieved: :satisfied: :sunglasses:
 
 ![emldown](illustrations/screenshot_emldown.png)
 
