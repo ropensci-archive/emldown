@@ -18,8 +18,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <h1><xsl:value-of select="//dataset/title" /></h1>
         
         
-        <p class="lead">Use this document as a way to quickly start any new project.
-        All you get is this text and a mostly barebones HTML document.</p>
+        <p class="lead"><xsl:value-of select="//dataset/abstract" /></p>
       </div>
     </div><!-- /.container -->
 
@@ -28,7 +27,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <xsl:call-template name="geographic_coverage"/>
     </div><!-- /.container -->
  
-     <div class="container">
+     <div class="container" id="datatable">
+     <h3>Data tables</h3>
       <xsl:call-template name="datatable"/>
     </div><!-- /.container -->
  
