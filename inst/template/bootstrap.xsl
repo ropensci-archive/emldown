@@ -5,6 +5,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:include href="head.xsl"/> 
 <xsl:include href="nav.xsl"/>
 <xsl:include href="geographic_coverage.xsl"/>
+<xsl:include href="datatable.xsl"/>
 <xsl:template match="/">
 <html lang="en">
   
@@ -24,6 +25,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
     <div class="container">
       <xsl:call-template name="geographic_coverage"/>
+    </div><!-- /.container -->
+ 
+     <div class="container">
+      <xsl:call-template name="datatable"/>
     </div><!-- /.container -->
  
     <!-- Bootstrap core JavaScript
