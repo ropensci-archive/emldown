@@ -13,5 +13,6 @@ LazyData: true
 Imports:
     xslt,
     EML,
-    xml2
+    xml2,
+    leaflet
 RoxygenNote: 6.0.1

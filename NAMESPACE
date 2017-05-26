@@ -2,3 +2,4 @@
 
 export(render_eml)
 export(write_custom_css)
+importFrom(leaflet,"%>%")
