@@ -25,5 +25,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   </xsl:for-each>
   </p>
   
+  <h5>Keywords</h5>
+  
+  <p>
+  <xsl:for-each select="//dataset/keywordSet/keyword">
+   <ul>
+     <li><xsl:value-of select="."/></li>
+   </ul>
+
+  </xsl:for-each>
+  </p>
+  
+  
 </xsl:template>
 </xsl:stylesheet>
