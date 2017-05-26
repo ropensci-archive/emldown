@@ -22,3 +22,7 @@ Raw EML file:
 With `emldown`:
 
 ![emldown](illustrations/screenshot_emldown.png)
+
+The resulting website is based on [Bootstrap](https://getbootstrap.com/) and has some interactive components:
+
+![demo1](illustrations/emldown_demo1.gif)
