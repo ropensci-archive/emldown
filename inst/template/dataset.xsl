@@ -14,6 +14,16 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:value-of select="//metadataProvider/individualName/surName"/>
   </p>
   
+  <h5>Authors</h5>
+  
+  <p>
+  <xsl:for-each select="//dataset/creator/individualName">
+   <xsl:value-of select="givenName"/>&#160;<xsl:value-of select="surName"/>
+   <xsl:if test="position() != last()">
+      <xsl:text>,&#160;</xsl:text>
+   </xsl:if>
+  </xsl:for-each>
+  </p>
   
 </xsl:template>
 </xsl:stylesheet>
