@@ -25,6 +25,10 @@ browseURL("test.html")
 
 library(emldown)
 render_eml("inst/extdata/hampton_underice.xml", publish_mode = TRUE)
+
+eml <- xml2::read_xml("inst/extdata/hampton_underice.xml")
+emldown:::map_geographical_coverage(eml)
+
 render_eml("inst/extdata/Lake_Baikal_Plankton.xml", publish_mode = TRUE)
 render_eml("inst/extdata/hampton_underice.xml", publish_mode = TRUE)
 write_custom_css

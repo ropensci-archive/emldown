@@ -19,7 +19,8 @@ map_geographical_coverage <- function(eml){
                          west = west, east = east,
                          south = south, north = north)
   
-  map <- leaflet::leaflet(geo_info) %>% leaflet::addTiles() %>%
+  map <- leaflet::leaflet(geo_info) %>% 
+    leaflet::addProviderTiles("CartoDB.Positron") %>%
     leaflet::addRectangles(
       lng1 = west, lat1 = south,
       lng2 = east, lat2 = north,
