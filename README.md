@@ -23,6 +23,12 @@ With `emldown`: :relieved: :satisfied: :sunglasses:
 
 ![emldown](illustrations/screenshot_emldown.png)
 
+## Working example
+
+A quick [example website](http://aammd.info/emldown/test.html)
+
+## Gifs
+
 The resulting website is based on [Bootstrap](https://getbootstrap.com/) and has some interactive components:
 
 ![demo1](illustrations/emldown_demo1.gif)
