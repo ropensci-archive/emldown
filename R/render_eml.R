@@ -8,14 +8,16 @@
 ##' @param open Whether to open the file in a browser. Defaults to TRUE.
 ##' @param outfile Name of output file.
 ##' @param publish_mode TRUE. If TRUE the website is pretty without warnings for weird stuff.
+##' @param encoding "" encoding of the EML file if necessary
 ##' @return HTML file containing dataset information
 ##' @author Kara Woo
 ##' @export
 ##' @examples 
 ##' render_eml(system.file("extdata", "Rodents_snakes_and_raptors.xml", package = "emldown"))
 render_eml <- function(file, open = TRUE, outfile = "test.html",
-                       publish_mode = TRUE, output_dir = "/docs") {
-  eml <- xml2::read_xml(file)
+                       publish_mode = TRUE, output_dir = "/docs",
+                       encoding = "") {
+  eml <- xml2::read_xml(file, encoding = encoding)
   style <- xml2::read_xml(system.file("template", "bootstrap.xsl",
                                       package = "emldown"))
   html <- xslt::xml_xslt(eml, style)
