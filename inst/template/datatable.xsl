@@ -14,11 +14,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <tr>
         <th>attribute name</th>
         <th>definition</th>
+        <th>format or unit</th>
       </tr>
       <xsl:for-each select="attributeList/attribute">
         <tr>
           <td><xsl:value-of select="attributeName"/></td>
           <td><xsl:value-of select="attributeDefinition"/></td>
+          <td><xsl:value-of select="measurementScale/dateTime"/><xsl:value-of select="measurementScale/ratio/unit"/><xsl:value-of select="measurementScale/interval/unit"/></td>
         </tr>
       </xsl:for-each>
     </table>
