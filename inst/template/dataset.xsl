@@ -37,8 +37,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </h4>
       </div>
       <div id="collapse1" class="panel-collapse collapse">
+        <h4>Creators</h4>
         <ul class="list-group">
         <xsl:for-each select="//dataset/creator">
+          <li class="list-group-item">
+            <xsl:value-of select="individualName/givenName"/>&#160;
+            <xsl:value-of select="individualName/surName"/>&#160;
+            <xsl:value-of select="electronicMailAddress"/>
+          </li>
+        </xsl:for-each>
+        </ul>
+        <h4>Associated parties</h4>
+        <ul class="list-group">
+        <xsl:for-each select="//dataset/associatedParty">
           <li class="list-group-item">
             <xsl:value-of select="individualName/givenName"/>&#160;
             <xsl:value-of select="individualName/surName"/>&#160;
