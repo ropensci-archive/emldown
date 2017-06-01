@@ -6,7 +6,7 @@ Description: EML (Ecological Metadata Language) is a standard for writing
     metadata, designed for ecological data. This package takes a EML document and
     creates a .html website that describes it.
 Depends:
-    R (>= 3.3.2)
+    R (>= 3.3.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
