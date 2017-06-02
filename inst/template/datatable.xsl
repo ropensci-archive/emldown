@@ -19,13 +19,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       <tr>
         <th>attribute name</th>
         <th>definition</th>
-        <th>format or unit</th>
+        <th>format, unit or codes</th>
       </tr>
       <xsl:for-each select="attributeList/attribute">
         <tr>
           <td><xsl:value-of select="attributeName"/></td>
           <td><xsl:value-of select="attributeDefinition"/></td>
-          <td><xsl:value-of select="measurementScale/dateTime"/><xsl:value-of select="measurementScale/ratio/unit"/><xsl:value-of select="measurementScale/interval/unit"/></td>
+          <td><xsl:value-of select="measurementScale/dateTime"/><xsl:value-of select="measurementScale/ratio/unit"/><xsl:value-of select="measurementScale/interval/unit"/><xsl:for-each select="measurementScale/nominal/nonNumericDomain/enumeratedDomain/codeDefinition"><xsl:value-of select="code"/><xsl:text>&#xA0;=&#xA0;</xsl:text><xsl:value-of select="definition"/> <xsl:text>&#xA0;</xsl:text></xsl:for-each></td>
         </tr>
       </xsl:for-each>
     </table>
