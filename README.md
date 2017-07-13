@@ -40,3 +40,8 @@ Geographic information turns into a map, made using [leaflet](https://rstudio.gi
 Right now, we are able to capture some of the most common parts of Ecological Metadata Language, including the Title, Abstract, Authors, Keywords, Coverage (where in space and time the samples were taken), the Data Tables and Units associated with these.
 
 ![demo3](illustrations/emldown_demo3.gif)
+
+## Meta
+
+-   Please [report any issues or bugs](https://github.com/ropenscilabs/emldown/issues).
+-   Please note that this project is released with a [Contributor Code of Conduct](CONDUCT.md). By participating in this project you agree to abide by its terms.
